@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Club_Logo from '../Images/Club_Logo.png';
 
+
 function Navbar() {
   return (
     <div>
