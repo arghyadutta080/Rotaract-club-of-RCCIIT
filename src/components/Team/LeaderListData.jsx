@@ -18,9 +18,7 @@ export const row_1 = [
         theme to ' Agitate. Aspire. Achieve'
         Following the motto of not hesitating to agitate brains to come up with ideas that contribute effectively
         to every cause that it becomes a part of and try to aspire to achieve all that is needed to be done to fulfil
-        desired goals.
-        
-        My team would be coming up with great projects ahead.`
+        desired goals.`
     },
     {
         role : "secretary (admin)",
@@ -45,7 +43,7 @@ export const row_1 = [
 export const row_2 = [
     {
         role: "secretary (events)",
-        name: "Anjali Chakraborty",
+        name: "Anjali",
         img : event_secretery,
         text : `This year marks my fourth year with Rotaract Club of RCCIIT. One thing that I can surely say is it has
         shaped me into a completely different person. For me, Rotaract has been a place to learn, grow and
@@ -59,11 +57,11 @@ export const row_2 = [
     },
     {
         role: "treasurer",
-        name: "",
+        name: "Astha Mishra",
         img : treasurer,
         text : `Greetings!
 
-        My rotaract journey started from being a general member of RCCIIT in 2019 to Chair of finance for RY
+        My rotaract journey started from being a general member of Rotaract Club of RCCIIT in 2019 to Chair of finance for RY
         2021-22 & currently being the Treasurer of the club. This year came in with a lot of responsibilities which
         i can only fulfill with sheer hardwork. It's almost 4 years that i have joined RCCIIT. I found a family in
         RCCIIT which always motivates me to be the best version of me.

@@ -9,7 +9,7 @@ function Navbar() {
       <header>
         <nav className="navbar navbar-expand-lg">
           <div className="container">
-            <img src={Club_Logo} style={{ height: "90px", width: "130px", marginRight: "40px" }} alt="" />
+            <img src={Club_Logo} style={{ height: "80px", width: "120px", marginRight: "40px" }} alt="" />
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
