@@ -21,7 +21,7 @@ export const row_1 = [
         desired goals.`
     },
     {
-        role : "secretary (admin)",
+        role : "Secretary (admin)",
         name : "Adrita Dutta",
         img : secretery_admin,
         text: `Hello
@@ -42,7 +42,7 @@ export const row_1 = [
 
 export const row_2 = [
     {
-        role: "secretary (events)",
+        role: "Secretary (events)",
         name: "Anjali",
         img : event_secretery,
         text : `This year marks my fourth year with Rotaract Club of RCCIIT. One thing that I can surely say is it has
@@ -56,7 +56,7 @@ export const row_2 = [
         things.`
     },
     {
-        role: "treasurer",
+        role: "Treasurer",
         name: "Astha Mishra",
         img : treasurer,
         text : `Greetings!
