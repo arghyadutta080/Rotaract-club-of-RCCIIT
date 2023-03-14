@@ -2,7 +2,7 @@ import React from 'react'
 
 function LeaderListElement(props) {
     return (
-        <div className="col mb-6 px-3 mb-5">
+        <div className= {`col px-3 mb-4 carousel-item ${props.mode}`}>
             <div className="card pt-4" style={{ backgroundColor: "white"  }}>
                 <img src={props.img} alt="" className='img-thumbnail rounded-circle mx-auto d-block' style={{ height: "250px", width: "250px" }} />
 

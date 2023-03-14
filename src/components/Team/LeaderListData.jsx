@@ -18,7 +18,8 @@ export const row_1 = [
         theme to ' Agitate. Aspire. Achieve'
         Following the motto of not hesitating to agitate brains to come up with ideas that contribute effectively
         to every cause that it becomes a part of and try to aspire to achieve all that is needed to be done to fulfil
-        desired goals.`
+        desired goals.`,
+        carousel : "active"
     },
     {
         role : "Secretary (admin)",
@@ -37,10 +38,7 @@ export const row_1 = [
         upcoming significant events. Its my request to every member to imagine in order to bring new ideas and
         try to implement them to keep this movement alive. Thank you everyone for being with me. Have a great
         year`
-    }
-]
-
-export const row_2 = [
+    },
     {
         role: "Secretary (events)",
         name: "Anjali",
