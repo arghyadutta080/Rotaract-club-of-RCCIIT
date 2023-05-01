@@ -5,7 +5,7 @@ import about_1 from "../../Images/Home Images/about_1.jpg";
 function About() {
   return (
     <div>
-      <section style={{ background: "#C4A7E7" }} >
+      <section style={{ background: "#E3DBEA" }} >
         <div className="d-flex flex-wrap justify-content-center border" style={{ paddingLeft: "50px", paddingRight: "50px", paddingBottom: "120px", paddingTop: "120px" }} >
           <div className="">
             <img src={about_1} style={{ width: "450px" }} />
