@@ -11,24 +11,6 @@ function Home() {
         <p className='mt-4 mb-4'><b>Join the college rotary club and make a difference!</b></p>
         <button className="btn mt-3" type="submit" style={{ color: "white", backgroundColor: "#B4637A" }}><a className="nav-link fw-semibold fs-6" href="#">Join Us</a></button>
       </div>
-      {/* <div id="carouselExampleControls" className="carousel slide container-fluid" data-ride="carousel" style={{width: "50%"}}>
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img className="d-block w-100" src={carosoul_1} alt="First slide" />
-          </div>
-          <div className="carousel-item">
-            <img className="d-block w-100" src={carosoul_4} alt="Second slide" />
-          </div>
-        </div>
-        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Next</span>
-        </button>
-      </div> */}
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mt-3">
         <div className="col mb-6 px-3 mb-5 d-flex flex-column justify-content-center align-items-center">
           <img src={carosoul_4} alt="" style={{ width: "85%" }} />
