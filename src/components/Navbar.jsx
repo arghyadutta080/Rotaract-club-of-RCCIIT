@@ -16,16 +16,16 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link active fw-semibold fs-5 mx-3" aria-current="page" href="#">Home</a>
+                  <Link className="nav-link active fw-semibold fs-5 mx-3" aria-current="page" to="/">Home</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active fw-semibold fs-5 mx-3" href="#">Events</a>
+                  <Link className="nav-link active fw-semibold fs-5 mx-3" to="/event">Events</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active fw-semibold fs-5 mx-3" href="#">Notice</a>
+                  <Link className="nav-link active fw-semibold fs-5 mx-3" to="/notice">Notice</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active fw-semibold fs-5 mx-3" href="#">Team</a>
+                  <Link className="nav-link active fw-semibold fs-5 mx-3" to="/team">Team</Link>
                 </li>
               </ul>
               <form className="d-flex flex-row justify-content-center" role="search">
