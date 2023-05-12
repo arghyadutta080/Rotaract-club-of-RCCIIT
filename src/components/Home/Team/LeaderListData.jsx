@@ -1,7 +1,7 @@
-import president from "../../Images/Leaders/president.jpeg"
-import treasurer from "../../Images/Leaders/treasurer.jpeg"
-import event_secretery from "../../Images/Leaders/event_secretery.jpg"
-import secretery_admin from "../../Images/Leaders/secretery_admin.jpeg"
+import president from "../../../Images/Leaders/president.jpeg"
+import treasurer from "../../../Images/Leaders/treasurer.jpeg"
+import event_secretery from "../../../Images/Leaders/event_secretery.jpg"
+import secretery_admin from "../../../Images/Leaders/secretery_admin.jpeg"
 
 export const row_1 = [
     {
