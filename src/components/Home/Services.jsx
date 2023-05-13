@@ -7,7 +7,7 @@ const Services = () => {
                 <h1 style={{ fontFamily: "Lora" }} className="display-4 pb-4 text-center">What we do</h1>
                 <p className='text'>We channel our commitment to service at home and abroad through four Avenues of Service, which are the foundation of Rotaract club activity.</p>
             </div>
-            <div className='col d-flex justify-content-evenly rounded-5 py-4' style={{ paddingLeft: "60px", paddingRight: "60px", background: "#D6EFF4", paddingBottom: "40px", paddingTop: "50px" }} >
+            <div className='col d-flex flex-wrap justify-content-evenly rounded-5 py-4' style={{ paddingLeft: "60px", paddingRight: "60px", background: "#D6EFF4", paddingBottom: "40px", paddingTop: "50px" }} >
                 <div className='d-flex flex-column align-items-center justify-content-between'>
                     <div className='my-2'>
                         <img src="https://media.istockphoto.com/id/688847962/vector/icon-happy-people-vector.jpg?s=612x612&w=0&k=20&c=d0XdZZIdX6T1cGEeMqyGTFQIhCNR55twxKa4ehhe5vs=" alt="community esrvice" className='img-thumbnail rounded-circle mx-auto d-block' style={{ height: "100px", width: "100px" }} />
