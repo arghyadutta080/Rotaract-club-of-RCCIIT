@@ -6,9 +6,9 @@ function About() {
   return (
     <div>
       <section style={{ background: "#E3DBEA" }} >
-        <div className="d-flex flex-wrap justify-content-center border" style={{ paddingLeft: "50px", paddingRight: "50px", paddingBottom: "120px", paddingTop: "120px" }} >
+        <div className="d-flex flex-wrap justify-content-center align-items-center border" style={{  paddingBottom: "120px", paddingTop: "120px" }} >
           <div className="">
-            <img src={about_1} style={{ width: "450px" }} />
+            <img src={about_1} style={{ minWidth: "450px", maxWidth: "500px", paddingLeft: "50px", paddingRight: "50px" }} />
           </div>
           <div style={{ width: "50%" }} className="d-flex flex-column justify-content-center align-items-center pr-0 pt-4 pb-4">
             <div style={{ fontFamily: "Lora" }} className="display-4 pb-4">Who We Are</div>

@@ -8,7 +8,7 @@ function Home() {
     <div className='container mb-4'>
       <div className='container mb-4'>
         <div className='text-center display-4 container-fluid' style={{ fontFamily: "Lora", width: "60%" }}> <em>Empowering tomorrow's leaders, today</em></div>
-        <p className='mt-4 mb-4'><b>Join the college rotary club and make a difference!</b></p>
+        <p className='my-4'><b>Join the college rotary club and make a difference!</b></p>
         <button className="btn mt-3" type="submit" style={{ color: "white", backgroundColor: "#B4637A" }}><a className="nav-link fw-semibold fs-6" href="#">Join Us</a></button>
       </div>
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mt-3">
