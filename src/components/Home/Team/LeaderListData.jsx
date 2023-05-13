@@ -37,7 +37,8 @@ export const row_1 = [
         responsibilities towards good work and showcasing talents of my fellow members through team work in
         upcoming significant events. Its my request to every member to imagine in order to bring new ideas and
         try to implement them to keep this movement alive. Thank you everyone for being with me. Have a great
-        year`
+        year`,
+        carousel: ""
     },
     {
         role: "Secretary (events)",
@@ -51,7 +52,8 @@ export const row_1 = [
         colleagues and juniors for their immense support and trust.
         
         We as a team are always going to strive in order to take our club to new heights and achieve great
-        things.`
+        things.`,
+        carousel: ""
     },
     {
         role: "Treasurer",
@@ -64,6 +66,7 @@ export const row_1 = [
         i can only fulfill with sheer hardwork. It's almost 4 years that i have joined RCCIIT. I found a family in
         RCCIIT which always motivates me to be the best version of me.
         
-        I had given my best to serve the society with my team. RCCIIT IS NOT A CLUB, It's like FAMILY to me.`
+        I had given my best to serve the society with my team. RCCIIT IS NOT A CLUB, It's like FAMILY to me.`,
+        carousel: ""
     }
 ]
