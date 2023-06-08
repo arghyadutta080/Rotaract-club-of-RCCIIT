@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import fb_logo from '../Images/Social Logos/fb_logo.png'
 import insta_logo from '../Images/Social Logos/insta_logo.png'
 import linkedIn_logo from '../Images/Social Logos/linkedIn_logo.png'
@@ -54,10 +55,10 @@ function Footer() {
                         <div className="col mb-3">
                             <h4 className='text-white'>Visit</h4>
                             <ul className="nav flex-column">
-                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">Home</a></li>
-                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">Events</a></li>
-                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">Notice</a></li>
-                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">Team</a></li>
+                                <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 text-light">Home</Link></li>
+                                <li className="nav-item mb-2"><Link to="/event" className="nav-link p-0 text-light">Events</Link></li>
+                                <li className="nav-item mb-2"><Link to="/notice" className="nav-link p-0 text-light">Notice</Link></li>
+                                <li className="nav-item mb-2"><Link to="/team" className="nav-link p-0 text-light">Team</Link></li>
                             </ul>
                         </div>
 

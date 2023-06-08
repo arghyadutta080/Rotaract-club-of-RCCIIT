@@ -4,6 +4,7 @@ import Club_Logo from '../Images/Club_Logo.png';
 
 
 function Navbar() {
+
   return (
     <div>
       <header>
@@ -29,7 +30,7 @@ function Navbar() {
                 </li>
               </ul>
               <form className="d-flex flex-row justify-content-center" role="search">
-                <button className="btn" type="submit"  style={{ color: "white", backgroundColor: "#B4637A" }}><a className="nav-link fw-semibold fs-5" href="#">Profile</a></button>
+                <button className="btn" type="submit" style={{ color: "white", backgroundColor: "#B4637A" }}><Link className="nav-link fw-semibold fs-5" to="/profile">Profile</Link></button>
               </form>
             </div>
           </div>

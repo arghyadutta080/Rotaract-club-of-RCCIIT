@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage';
 import EventPage from './pages/EventPage';
 import NoticePage from './pages/NoticePage';
 import TeamPage from './pages/TeamPage';
+import ProfilePage from './pages/ProfilePage';
 
 import {
   BrowserRouter as Router,
@@ -21,6 +22,7 @@ function App() {
           <Route exact path="/event" element={<EventPage />} />
           <Route exact path="/notice" element={<NoticePage />} />
           <Route exact path="/team" element={<TeamPage />} />
+          <Route path="/profile" element={<ProfilePage/>} />
         </Routes>
       </Router>
     </div>
