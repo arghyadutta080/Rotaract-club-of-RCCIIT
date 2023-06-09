@@ -69,7 +69,7 @@ const SignUp = () => {
                             </div>
                             <div className="mt-4">
                                 <label className="form-label fw-semibold fs-5" htmlFor="exampleInputDob"> D.O.B</label>
-                                <input type="date" className="form-control rounded-pill" style={{ backgroundColor: "#D7ECEF", border: "2px solid #B4637A" }} id="exampleInputDob" {...register('dob')} />
+                                <input type="date" className="form-control rounded-pill" style={{ backgroundColor: "#D7ECEF", border: "2px solid #B4637A" }} id="exampleInputDob" placeholder='dd/mm/yyyy' {...register('dob')} />
                                 <p>{errors.dob?.message}</p>
                             </div>
                             <div className="mt-4">
@@ -79,15 +79,15 @@ const SignUp = () => {
                             </div>
                             <div className="mt-4">
                                 <label className="form-label fw-semibold fs-5" htmlFor="exampleInputDoi"> D.O.I</label>
-                                <input type="date" className="form-control rounded-pill" style={{ backgroundColor: "#D7ECEF", border: "2px solid #B4637A" }} id="exampleInputDoi" {...register('doi')} />
+                                <input type="date" className="form-control rounded-pill" style={{ backgroundColor: "#D7ECEF", border: "2px solid #B4637A" }} id="exampleInputDoi" placeholder='dd/mm/yyyy' {...register('doi')} />
                                 <p>{errors.doi?.message}</p>
                             </div>
                         </div>
                     </div>
 
                     {/* submit button */}
-                    <div className="mt-4 pt-3">
-                        <button className="mt-4 fw-semibold btn btn-lg rounded-pill" style={{ backgroundColor: "#B4637A", color: "white", width: "30%" }} type="submit">Register Now</button>
+                    <div className="my-4 pt-3">
+                        <button className="my-3 fw-semibold btn btn-lg rounded-pill" style={{ backgroundColor: "#B4637A", color: "white", width: "220px" }} type="submit">Register Now</button>
                     </div>
 
                 </form>

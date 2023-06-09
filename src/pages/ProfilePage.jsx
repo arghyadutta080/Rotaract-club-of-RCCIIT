@@ -8,7 +8,8 @@ import Profile from '../components/Authentication/Profile'
 const ProfilePage = () => {
   return (
     <div >
-      <SignUp/>
+      {/* <SignUp/> */}
+      <Profile/>
     </div>
   )
 }
