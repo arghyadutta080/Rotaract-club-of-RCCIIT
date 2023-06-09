@@ -6,6 +6,11 @@ import NoticePage from './pages/NoticePage';
 import TeamPage from './pages/TeamPage';
 import ProfilePage from './pages/ProfilePage';
 
+// importing profile pages components
+import SignUp from './components/Authentication/SignUp'
+import Login from './components/Authentication/LogIn'
+import Profile from './components/Authentication/Profile'
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -22,7 +27,10 @@ function App() {
           <Route exact path="/event" element={<EventPage />} />
           <Route exact path="/notice" element={<NoticePage />} />
           <Route exact path="/team" element={<TeamPage />} />
-          <Route path="/profile" element={<ProfilePage/>} />
+          <Route exact path="/profile" element={<ProfilePage/>} />
+          {/* routing ProfilePage components */}
+          <Route exact path="/signup" element={<SignUp/>} />
+          <Route exact path="/login" element={<Login />} />
         </Routes>
       </Router>
     </div>
