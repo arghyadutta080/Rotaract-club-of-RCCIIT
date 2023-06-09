@@ -120,7 +120,9 @@ const SignUp = () => {
                     <div className="my-4 pt-3">
                         <button className="my-3 fw-semibold btn btn-lg rounded-pill" style={{ backgroundColor: "#B4637A", color: "white", width: "220px" }} type="submit">Register Now</button>
                     </div>
+
                     <Toaster position="top-center" reverseOrder={false} />
+                    
                 </form>
             </div>
         </div>

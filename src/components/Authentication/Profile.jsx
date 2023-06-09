@@ -4,7 +4,6 @@ import { CiLogout } from 'react-icons/ci'
 import Navbar from '../Navbar'
 import Footer from '../Footer'
 import axios from 'axios'
-import { Navigate } from 'react-router-dom'
 
 
 const Profile = () => {
@@ -27,6 +26,7 @@ const Profile = () => {
     setIsAuthenticated(false);
   }
 
+  // need to make put request here to edit profile
 
   return (
     <div>
