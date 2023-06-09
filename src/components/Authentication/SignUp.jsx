@@ -51,7 +51,7 @@ const SignUp = () => {
                             </div>
                             <div className="mt-4">
                                 <label className="form-label fw-semibold fs-5" htmlFor="exampleInputId"> Rotaract ID</label>
-                                <input type="text" className="form-control rounded-pill" style={{ backgroundColor: "#D7ECEF", border: "2px solid #B4637A" }} id="exampleInputId" placeholder="name@example.com" {...register('rid')} />
+                                <input type="text" className="form-control rounded-pill" style={{ backgroundColor: "#D7ECEF", border: "2px solid #B4637A" }} id="exampleInputId" placeholder="6 digit Rtr. ID" {...register('rid')} />
                                 <p>{errors.rid?.message}</p>
                             </div>
                             <div className="mt-4">
