@@ -3,7 +3,7 @@ import SignUp from '../components/Authentication/SignUp'
 
 const ProfilePage = () => {
   return (
-    <div>
+    <div >
       <SignUp/>
     </div>
   )
