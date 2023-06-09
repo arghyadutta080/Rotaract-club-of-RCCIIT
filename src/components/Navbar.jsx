@@ -30,7 +30,7 @@ function Navbar() {
                 </li>
               </ul>
               <form className="d-flex flex-row justify-content-center" role="search">
-                <button className="btn" type="submit" style={{ color: "white", backgroundColor: "#B4637A" }}><Link className="nav-link fw-semibold fs-5" to="/profile">Profile</Link></button>
+                <div className='py-1 px-3 rounded-3' style={{ color: "white", backgroundColor: "#B4637A" }}><Link className="nav-link fw-semibold fs-5" to="/profile">Profile</Link></div>
               </form>
             </div>
           </div>

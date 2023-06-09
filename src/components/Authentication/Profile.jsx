@@ -1,47 +1,38 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useContext } from 'react'
+import { AuthContext } from '../Context/Auth/AuthContext'
 import { CiLogout } from 'react-icons/ci'
 import Navbar from '../Navbar'
 import Footer from '../Footer'
 import axios from 'axios'
+import { Navigate } from 'react-router-dom'
 
 
 const Profile = () => {
 
-  const classRoll = 'it2019046';
+  const context = useContext(AuthContext);
+  const userInfo = context.user;
+  const isAuthenticated = context.isAuthenticated;
+  const setIsAuthenticated = context.setIsAuthenticated;
 
-  const [user, setUser] = useState('');
-  const [roll, setRoll] = useState('');
-  const [rid, setRid] = useState('');
-  const [email, setEmail] = useState('');
-  const [phone, setPhone] = useState('');
-  const [dob, setDob] = useState('');
-  const [bloodGroup, setBloodGroup] = useState('');
-  const [doi, setDoi] = useState('');
+  const [user, setUser] = useState(userInfo.name);
+  const [roll, setRoll] = useState(userInfo.roll);
+  const [rid, setRid] = useState(userInfo.rid);
+  const [email, setEmail] = useState(userInfo.email);
+  const [phone, setPhone] = useState(userInfo.phone);
+  const [dob, setDob] = useState(userInfo.dob);
+  const [bloodGroup, setBloodGroup] = useState(userInfo.blood);
+  const [doi, setDoi] = useState(userInfo.doi);
 
-  useEffect(() => {
-    axios.get(`https://aodzylv2p2.execute-api.ap-south-1.amazonaws.com/dev/user-by-roll/${classRoll}`)
-      .then((response) => {
-        const userInfo = response.data;
-        setUser(userInfo[0].name);
-        setRoll(userInfo[0].roll);
-        setRid(userInfo[0].rid);
-        setEmail(userInfo[0].email);
-        setPhone(userInfo[0].phone);
-        setDob(userInfo[0].dob);
-        setBloodGroup(userInfo[0].blood);
-        setDoi(userInfo[0].doi);
-      })
-      .catch(error => {
-        console.error(error);
-      });
-  }, [])
+  const logout = () => {
+    setIsAuthenticated(false);
+  }
 
 
   return (
     <div>
 
       <Navbar />
-      
+
       <div className='mt-4 pt-2 container'>
         {/* heading with buttons */}
         <div className='d-flex flex-column justify-content-start align-items-start mx-4 container'>
@@ -50,7 +41,7 @@ const Profile = () => {
 
           <div className='d-flex mb-3'>
             <button className="my-1 mx-0 btn fw-semibold btn-sm rounded-pill" style={{ backgroundColor: "#B4637A", color: "white" }} type="submit">Edit Details</button>
-            <button className="my-1 mx-3 btn fw-semibold btn-sm rounded-pill" style={{ backgroundColor: "#D0B9EC" }} type="submit"><CiLogout color='black' size={20} /> Logout</button>
+            <button className="my-1 mx-3 btn fw-semibold btn-sm rounded-pill" style={{ backgroundColor: "#D0B9EC" }} type="submit" onClick={logout}><CiLogout color='black' size={20} /> Logout</button>
           </div>
 
         </div>
