@@ -1,8 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import fb_logo from '../Images/Social Logos/fb_logo.png'
-import insta_logo from '../Images/Social Logos/insta_logo.png'
-import linkedIn_logo from '../Images/Social Logos/linkedIn_logo.png'
+import { FaFacebookSquare } from 'react-icons/fa'
+import { BsInstagram, BsLinkedin } from 'react-icons/bs'
 
 
 function Footer() {
@@ -63,20 +62,20 @@ function Footer() {
                         </div>
 
                         <div className="col mb-3">
-                            <h4 className='text-white'>Profile</h4>
+                            <h4 className='text-white'>Member</h4>
                             <ul className="nav flex-column">
-                                <li className="nav-item mb-2"><Link to="/signup" className="nav-link p-0 text-light">Sign Up</Link></li>
+                                <li className="nav-item mb-2"><Link to="/profile" className="nav-link p-0 text-light">Profile</Link></li>
                                 <li className="nav-item mb-2"><Link to="/login" className="nav-link p-0 text-light">Login</Link></li>
-                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-light">GitHub</a></li>
+                                <li className="nav-item mb-2"><Link to="/signup" className="nav-link p-0 text-light">Sign Up</Link></li>
                             </ul>
                         </div>
 
                         <div className="col mb-3">
                             <h4 className='text-white'>Social</h4>
                             <ul className="nav flex-column">
-                                <li className="nav-item mb-2"><a href="#"><img src={fb_logo} className="bi" width="43" height="34"></img></a></li>
-                                <li className="nav-item mb-2"><a href="#"><img src={insta_logo} className="bi" width="30" height="28"></img></a></li>
-                                <li className="nav-item mb-2"><a href="#"><img src={linkedIn_logo} className="bi" width="35" height="35"></img></a></li>
+                                <li className="nav-item mb-3"><Link to="https://www.facebook.com/rotaractrcciit"><FaFacebookSquare size={30} color='white' /> </Link></li>
+                                <li className="nav-item mb-3"><Link to="https://www.instagram.com/rotaractrcciit/"><BsInstagram size={28} color='white' /> </Link></li>
+                                <li className="nav-item mb-3"><Link to="https://www.linkedin.com/company/rotaractrcciit/"><BsLinkedin size={27} color='white' /> </Link></li>
                             </ul>
                         </div>
                     </div>

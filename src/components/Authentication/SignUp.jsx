@@ -1,8 +1,10 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
-import { Link } from 'react-router-dom';
+import { Link, Navigate } from 'react-router-dom';
+import axios from 'axios';
+import { Toaster, toast } from 'react-hot-toast';
 
 
 
@@ -25,12 +27,41 @@ const SignUp = () => {
         resolver: yupResolver(schema),
     });
 
+    const [registerData, setRegisterData] = useState(false);
+
+    const registration = (data) => {
+        const user = {
+            username: data.username,
+            roll: data.roll,
+            rid: data.rid,
+            email: data.email,
+            phone: data.phone,
+            dob: data.dob,
+            blood: data.blood,
+            doi: data.doi
+        }
+        axios.post('https://aodzylv2p2.execute-api.ap-south-1.amazonaws.com/dev/user', user)
+            .then((response) => {
+                console.log(response.data);
+                toast.success("Registration Successful");
+                setRegisterData(true);
+            })
+            .catch((error) => {
+                console.error(error);
+                toast.error("Registration Failed")
+            });
+    }
+
+    if (registerData === true) {
+        return <Navigate to="/login" />
+    }
+
     return (
         <div className='mt-4'>
             <div className="container mt-4">
                 <form onSubmit={handleSubmit((d) => {
-                    console.log(d);
-                    alert("Event details are collected");
+                    // console.log(d);
+                    registration(d)
                 })}>
                     {/* Header */}
                     <div className='text-center display-3 container-fluid mt-4 pt-2' style={{ fontFamily: "Lora" }}> <em>Register</em></div>
@@ -46,7 +77,7 @@ const SignUp = () => {
                             </div>
                             <div className="mt-4">
                                 <label className="form-label fw-semibold fs-5" htmlFor="exampleInpuRollt"> College Roll</label>
-                                <input type="text" className="form-control rounded-pill" style={{ backgroundColor: "#D7ECEF", border: "2px solid #B4637A" }} id="exampleInputRoll" placeholder="CSE20XX/XXX" {...register('roll')} />
+                                <input type="text" className="form-control rounded-pill" style={{ backgroundColor: "#D7ECEF", border: "2px solid #B4637A" }} id="exampleInputRoll" placeholder="CSE20XXXXX" {...register('roll')} />
                                 <p>{errors.roll?.message}</p>
                             </div>
                             <div className="mt-4">
@@ -89,7 +120,7 @@ const SignUp = () => {
                     <div className="my-4 pt-3">
                         <button className="my-3 fw-semibold btn btn-lg rounded-pill" style={{ backgroundColor: "#B4637A", color: "white", width: "220px" }} type="submit">Register Now</button>
                     </div>
-
+                    <Toaster position="top-center" reverseOrder={false} />
                 </form>
             </div>
         </div>

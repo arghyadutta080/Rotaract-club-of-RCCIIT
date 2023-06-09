@@ -6,7 +6,10 @@ const NoticePage = () => {
   return (
     <div>
       <Navbar />
-      <Footer/>
+      <div className='d-flex align-items-center justify-content-center' style={{ height: "70vh" }}>
+        <img className='mt-4' src="https://www.pw.live/study/assets/coming-soon.png" alt="" style={{ height: "300px", width: "470px" }}/>
+      </div>
+      {/* <Footer/> */}
     </div>
   )
 }

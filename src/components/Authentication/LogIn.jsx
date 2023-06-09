@@ -67,7 +67,7 @@ const Login = () => {
                             </div>
                             <div className="mt-4">
                                 <label className="form-label fw-semibold fs-5" htmlFor="exampleInpuRollt"> College Roll</label>
-                                <input type="text" className="form-control rounded-pill" style={{ backgroundColor: "#D7ECEF", border: "2px solid #B4637A" }} id="exampleInputRoll" placeholder="CSE20XX/XXX" {...register('roll')} />
+                                <input type="text" className="form-control rounded-pill" style={{ backgroundColor: "#D7ECEF", border: "2px solid #B4637A" }} id="exampleInputRoll" placeholder="CSE20XXXXX" {...register('roll')} />
                                 <p>{errors.roll?.message}</p>
                             </div>
                             {/* submit button */}

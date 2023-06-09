@@ -14,7 +14,7 @@ const Profile = () => {
   const isAuthenticated = context.isAuthenticated;
   const setIsAuthenticated = context.setIsAuthenticated;
 
-  const [user, setUser] = useState(userInfo.name);
+  const [user, setUser] = useState(userInfo.username);
   const [roll, setRoll] = useState(userInfo.roll);
   const [rid, setRid] = useState(userInfo.rid);
   const [email, setEmail] = useState(userInfo.email);
