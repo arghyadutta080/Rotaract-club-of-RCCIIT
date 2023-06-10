@@ -152,7 +152,7 @@ export const event_2022 = [
         date: "29th October, 2022",
         time: "",
         venue: "Bansdroni",
-        desc: "The Rotaract Club of RCCIIT collaborated with the Rotaract Club of Netaji Subhash Engineering College on their event “Happy Faces”.",
+        desc: "The Rotaract Club of RCCIIT collaborated with the Rotaract Club of Netaji Subhash Engineering College on their event.",
         more: "https://docs.google.com/document/d/1-erp021qvOM5LpD4nx-gv6phV2NRhClE/edit"
     },
     {
@@ -176,7 +176,7 @@ export const event_2022 = [
         date: "21st October 2022",
         time: "",
         venue: "Rathtala, Garia",
-        desc: "Our club Rotaract Club of RCCIIT, took the initiative of reaching out to the idol makers, post puja days.",
+        desc: "Our club Rotaract Club of RCCIIT, took the initiative of reaching out to the idol makers and post puja days.",
         more: "https://docs.google.com/document/d/1X8zoItTkB0Wt4q1ItV6VfKSv97ZrHEkx/edit"
     },
     {
