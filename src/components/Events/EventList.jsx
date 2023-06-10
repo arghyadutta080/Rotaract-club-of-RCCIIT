@@ -18,8 +18,8 @@ const EventList = () => {
                             {year === event_2023 ? "2023" : "2022"}
                         </button>
                         <ul className="dropdown-menu ">
-                            <li><div className="dropdown-item my-2 mx-2" onClick={() => { setYear(event_2023)}} >2023</div></li>
-                            <li><div className="dropdown-item my-2 mx-2" onClick={() => { setYear(event_2022) }}>2022</div></li>
+                            <li><div className="dropdown-item my-2" onClick={() => { setYear(event_2023)}} >2023</div></li>
+                            <li><div className="dropdown-item my-2" onClick={() => { setYear(event_2022) }}>2022</div></li>
                         </ul>
                     </div>
                 </div>

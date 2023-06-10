@@ -146,5 +146,45 @@ export const event_2022 = [
         venue: "Football Ground",
         desc: "It is our Rota Soccer 2022 which a football tournament organized every year Rotaract 3291 where our club members participated.",
         more: "https://docs.google.com/document/d/1ukjASDnhOHS2f_YwtTDOwHRe5SKd69Oz/edit"
+    },
+    {
+        name: "Happy Face",
+        date: "29th October, 2022",
+        time: "",
+        venue: "Bansdroni",
+        desc: "The Rotaract Club of RCCIIT collaborated with the Rotaract Club of Netaji Subhash Engineering College on their event “Happy Faces”.",
+        more: "https://docs.google.com/document/d/1-erp021qvOM5LpD4nx-gv6phV2NRhClE/edit"
+    },
+    {
+        name: "Aaditya",
+        date: "28th October, 2022",
+        time: "",
+        venue: "Not Applicable",
+        desc: "To celebrate the occasion of Chatt the Rotaract Club of RCCIIT co-hosted the event, organized by the Rotaract Club of MCKVIE.",
+        more: "https://docs.google.com/document/d/19B6K2wXKsGRDmL4ZA3zPQ7elZne_sNvI/edit"
+    },
+    {
+        name: "Dazzle",
+        date: "28th October, 2022",
+        time: "",
+        venue: "RCCIIT Campus",
+        desc: "The Rotaract club of RCCIIT ushered in Diwali,festival of lights with a diya painting competition “Dazzle”. ",
+        more: "https://docs.google.com/document/d/1xOnD7UjXGSML_QaXxjUyEh27bfaLl47H/edit"
+    },
+    {
+        name: "Vastra Upohar",
+        date: "21st October 2022",
+        time: "",
+        venue: "Rathtala, Garia",
+        desc: "Our club Rotaract Club of RCCIIT, took the initiative of reaching out to the idol makers, post puja days.",
+        more: "https://docs.google.com/document/d/1X8zoItTkB0Wt4q1ItV6VfKSv97ZrHEkx/edit"
+    },
+    {
+        name: "Pawsitive",
+        date: "16th October, 2022",
+        time: "",
+        venue: "Streets",
+        desc: "The Rotaract and Rotary clubs of District 3291 got together on 16th October for the initiative “Pawsitive”. ",
+        more: "https://docs.google.com/document/d/15o6TV95zzrsLTauOPRIqVxkuTQxJ9msg/edit"
     }
 ]
