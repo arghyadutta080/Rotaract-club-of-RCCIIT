@@ -61,7 +61,7 @@ const Profile = () => {
 
       <div className='mt-4 pt-2 container'>
         {/* heading with buttons */}
-        <div className='d-flex flex-column justify-content-start align-items-start mx-3'>
+        <div className='d-flex flex-column justify-content-start align-items-start container'>
 
           <div className='display-6 d-flex justify-content-start mb-3' style={{ fontFamily: "Lora", width: "350px" }}> <em>User Dashboard</em></div>
 
@@ -81,36 +81,36 @@ const Profile = () => {
                       {/* Modal form */}
                       <div style={{ width: "340px" }}>
                         <div className="mt-4 d-flex rounded-pill">
-                          <div className='text-center fw-semibold py-1' style={{ width: "160px", backgroundColor: "#D7ECEF", border: "4px solid #D7ECEF" }}>Your Name</div>
-                          <input className='text-center fw-semibold py-1' style={{ width: "180px", border: "4px solid #D7ECEF" }} value={user} onChange={(e) => { setUser(e.target.value) }} />
+                          <div className='text-center fw-semibold py-1' style={{ width: "160px", backgroundColor: "#D6EFF4", border: "4px solid #D6EFF4" }}>Your Name</div>
+                          <input className='text-center fw-semibold py-1' style={{ width: "180px", border: "4px solid #D6EFF4" }} value={user} onChange={(e) => { setUser(e.target.value) }} />
                         </div>
                         <div className="mt-4 d-flex rounded-pill">
-                          <div className='text-center fw-semibold py-1' style={{ width: "160px", backgroundColor: "#D7ECEF", border: "4px solid #D7ECEF" }}>Your Phone</div>
-                          <input className='text-center fw-semibold py-1' style={{ width: "180px", border: "4px solid #D7ECEF" }} value={phone} onChange={(e) => { setPhone(e.target.value) }} />
+                          <div className='text-center fw-semibold py-1' style={{ width: "160px", backgroundColor: "#D6EFF4", border: "4px solid #D6EFF4" }}>Your Phone</div>
+                          <input className='text-center fw-semibold py-1' style={{ width: "180px", border: "4px solid #D6EFF4" }} value={phone} onChange={(e) => { setPhone(e.target.value) }} />
                         </div>
                         <div className="mt-4 d-flex rounded-pill">
-                          <div className='text-center fw-semibold py-1' style={{ width: "160px", backgroundColor: "#D7ECEF", border: "4px solid #D7ECEF" }}>Your Rotaract ID</div>
-                          <input className='text-center fw-semibold py-1' style={{ width: "180px", border: "4px solid #D7ECEF" }} value={rid} onChange={(e) => { setRid(e.target.value) }} />
+                          <div className='text-center fw-semibold py-1' style={{ width: "160px", backgroundColor: "#D6EFF4", border: "4px solid #D6EFF4" }}>Your Rotaract ID</div>
+                          <input className='text-center fw-semibold py-1' style={{ width: "180px", border: "4px solid #D6EFF4" }} value={rid} onChange={(e) => { setRid(e.target.value) }} />
                         </div>
                         <div className="mt-4 d-flex rounded-pill">
-                          <div className='text-center fw-semibold py-1' style={{ width: "160px", backgroundColor: "#D7ECEF", border: "4px solid #D7ECEF" }}>Your DOB</div>
-                          <input className='text-center fw-semibold py-1' type='date' style={{ width: "180px", border: "4px solid #D7ECEF" }} value={dob} onChange={(e) => { setDob(e.target.value) }} />
+                          <div className='text-center fw-semibold py-1' style={{ width: "160px", backgroundColor: "#D6EFF4", border: "4px solid #D6EFF4" }}>Your DOB</div>
+                          <input className='text-center fw-semibold py-1' type='date' style={{ width: "180px", border: "4px solid #D6EFF4" }} value={dob} onChange={(e) => { setDob(e.target.value) }} />
                         </div>
                         <div className="mt-4 d-flex rounded-pill">
-                          <div className='text-center fw-semibold py-1' style={{ width: "160px", backgroundColor: "#D7ECEF", border: "4px solid #D7ECEF" }}>Your Roll</div>
-                          <input className='text-center fw-semibold py-1' style={{ width: "180px", border: "4px solid #D7ECEF" }} value={roll} onChange={(e) => { setRoll(e.target.value) }} />
+                          <div className='text-center fw-semibold py-1' style={{ width: "160px", backgroundColor: "#D6EFF4", border: "4px solid #D6EFF4" }}>Your Roll</div>
+                          <input className='text-center fw-semibold py-1' style={{ width: "180px", border: "4px solid #D6EFF4" }} value={roll} onChange={(e) => { setRoll(e.target.value) }} />
                         </div>
                         <div className="mt-4 d-flex rounded-pill">
-                          <div className='text-center fw-semibold py-1' style={{ width: "160px", backgroundColor: "#D7ECEF", border: "4px solid #D7ECEF" }}>Your Email</div>
-                          <input className='text-center fw-semibold py-1' style={{ width: "180px", border: "4px solid #D7ECEF" }} value={email} onChange={(e) => { setEmail(e.target.value) }} />
+                          <div className='text-center fw-semibold py-1' style={{ width: "160px", backgroundColor: "#D6EFF4", border: "4px solid #D6EFF4" }}>Your Email</div>
+                          <input className='text-center fw-semibold py-1' style={{ width: "180px", border: "4px solid #D6EFF4" }} value={email} onChange={(e) => { setEmail(e.target.value) }} />
                         </div>
                         <div className="mt-4 d-flex rounded-pill">
-                          <div className='text-center fw-semibold py-1' style={{ width: "160px", backgroundColor: "#D7ECEF", border: "4px solid #D7ECEF" }}>Your Blood Group</div>
-                          <input className='text-center fw-semibold py-1' style={{ width: "180px", border: "4px solid #D7ECEF" }} value={bloodGroup} onChange={(e) => { setBloodGroup(e.target.value) }} />
+                          <div className='text-center fw-semibold py-1' style={{ width: "160px", backgroundColor: "#D6EFF4", border: "4px solid #D6EFF4" }}>Your Blood Group</div>
+                          <input className='text-center fw-semibold py-1' style={{ width: "180px", border: "4px solid #D6EFF4" }} value={bloodGroup} onChange={(e) => { setBloodGroup(e.target.value) }} />
                         </div>
                         <div className="mt-4 d-flex rounded-pill">
-                          <div className='text-center fw-semibold py-1' style={{ width: "160px", backgroundColor: "#D7ECEF", border: "4px solid #D7ECEF" }}>Your DOI</div>
-                          <input className='text-center fw-semibold py-1' type='date' style={{ width: "180px", border: "4px solid #D7ECEF" }} value={doi} onChange={(e) => { setDoi(e.target.value) }} />
+                          <div className='text-center fw-semibold py-1' style={{ width: "160px", backgroundColor: "#D6EFF4", border: "4px solid #D6EFF4" }}>Your DOI</div>
+                          <input className='text-center fw-semibold py-1' type='date' style={{ width: "180px", border: "4px solid #D6EFF4" }} value={doi} onChange={(e) => { setDoi(e.target.value) }} />
                         </div>
                       </div>
                     </div>
@@ -143,40 +143,40 @@ const Profile = () => {
         <div className='d-flex justify-content-around flex-wrap mb-4 pb-4'>
           {/* left-column */}
           <div style={{ width: "340px" }}>
-            <div className="mt-4 d-flex rounded-pill">
-              <div className='text-center fw-semibold py-1' style={{ width: "120px", backgroundColor: "#D7ECEF", border: "4px solid #D7ECEF" }}>Name</div>
-              <div className='text-center fw-semibold py-1' style={{ width: "240px", border: "4px solid #D7ECEF" }}>{user}</div>
+            <div className="mt-4 d-flex rounded-3">
+              <div className='text-center fw-semibold py-1' style={{ width: "120px", backgroundColor: "#D6EFF4", border: "4px solid #D6EFF4" }}>Name</div>
+              <div className='text-center fw-semibold py-1' style={{ width: "240px", border: "4px solid #D6EFF4" }}>{user}</div>
             </div>
-            <div className="mt-4 d-flex rounded-pill">
-              <div className='text-center fw-semibold py-1' style={{ width: "120px", backgroundColor: "#D7ECEF", border: "4px solid #D7ECEF" }}>Phone</div>
-              <div className='text-center fw-semibold py-1' style={{ width: "240px", border: "4px solid #D7ECEF" }}>{phone}</div>
+            <div className="mt-4 d-flex rounded-3">
+              <div className='text-center fw-semibold py-1' style={{ width: "120px", backgroundColor: "#D6EFF4", border: "4px solid #D6EFF4" }}>Phone</div>
+              <div className='text-center fw-semibold py-1' style={{ width: "240px", border: "4px solid #D6EFF4" }}>{phone}</div>
             </div>
-            <div className="mt-4 d-flex rounded-pill">
-              <div className='text-center fw-semibold py-1' style={{ width: "120px", backgroundColor: "#D7ECEF", border: "4px solid #D7ECEF" }}>Rotaract ID</div>
-              <div className='text-center fw-semibold py-1' style={{ width: "240px", border: "4px solid #D7ECEF" }}>{rid}</div>
+            <div className="mt-4 d-flex rounded-3">
+              <div className='text-center fw-semibold py-1' style={{ width: "120px", backgroundColor: "#D6EFF4", border: "4px solid #D6EFF4" }}>Rotaract ID</div>
+              <div className='text-center fw-semibold py-1' style={{ width: "240px", border: "4px solid #D6EFF4" }}>{rid}</div>
             </div>
-            <div className="mt-4 d-flex rounded-pill">
-              <div className='text-center fw-semibold py-1' style={{ width: "120px", backgroundColor: "#D7ECEF", border: "4px solid #D7ECEF" }}>DOB</div>
-              <div className='text-center fw-semibold py-1' style={{ width: "240px", border: "4px solid #D7ECEF" }}>{dob}</div>
+            <div className="mt-4 d-flex rounded-3">
+              <div className='text-center fw-semibold py-1' style={{ width: "120px", backgroundColor: "#D6EFF4", border: "4px solid #D6EFF4" }}>DOB</div>
+              <div className='text-center fw-semibold py-1' style={{ width: "240px", border: "4px solid #D6EFF4" }}>{dob}</div>
             </div>
           </div>
           {/* right column */}
           <div style={{ width: "340px" }}>
-            <div className="mt-4 d-flex rounded-pill">
-              <div className='text-center fw-semibold py-1' style={{ width: "120px", backgroundColor: "#D7ECEF", border: "4px solid #D7ECEF" }}>Roll</div>
-              <div className='text-center fw-semibold py-1' style={{ width: "240px", border: "4px solid #D7ECEF" }}>{roll}</div>
+            <div className="mt-4 d-flex rounded-3">
+              <div className='text-center fw-semibold py-1' style={{ width: "120px", backgroundColor: "#D6EFF4", border: "4px solid #D6EFF4" }}>Roll</div>
+              <div className='text-center fw-semibold py-1' style={{ width: "240px", border: "4px solid #D6EFF4" }}>{roll}</div>
             </div>
-            <div className="mt-4 d-flex rounded-pill">
-              <div className='text-center fw-semibold py-1' style={{ width: "120px", backgroundColor: "#D7ECEF", border: "4px solid #D7ECEF" }}>Email</div>
-              <div className='text-center fw-semibold py-1' style={{ width: "240px", border: "4px solid #D7ECEF" }}>{email}</div>
+            <div className="mt-4 d-flex rounded-3">
+              <div className='text-center fw-semibold py-1' style={{ width: "120px", backgroundColor: "#D6EFF4", border: "4px solid #D6EFF4" }}>Email</div>
+              <div className='text-center fw-semibold py-1' style={{ width: "240px", border: "4px solid #D6EFF4" }}>{email}</div>
             </div>
-            <div className="mt-4 d-flex rounded-pill">
-              <div className='text-center fw-semibold py-1' style={{ width: "120px", backgroundColor: "#D7ECEF", border: "4px solid #D7ECEF" }}>Blood Group</div>
-              <div className='text-center fw-semibold py-1' style={{ width: "240px", border: "4px solid #D7ECEF" }}>{bloodGroup}</div>
+            <div className="mt-4 d-flex rounded-3">
+              <div className='text-center fw-semibold py-1' style={{ width: "120px", backgroundColor: "#D6EFF4", border: "4px solid #D6EFF4" }}>Blood Group</div>
+              <div className='text-center fw-semibold py-1' style={{ width: "240px", border: "4px solid #D6EFF4" }}>{bloodGroup}</div>
             </div>
-            <div className="mt-4 d-flex rounded-pill">
-              <div className='text-center fw-semibold py-1' style={{ width: "120px", backgroundColor: "#D7ECEF", border: "4px solid #D7ECEF" }}>DOI</div>
-              <div className='text-center fw-semibold py-1' style={{ width: "240px", border: "4px solid #D7ECEF" }}>{doi}</div>
+            <div className="mt-4 d-flex rounded-3">
+              <div className='text-center fw-semibold py-1' style={{ width: "120px", backgroundColor: "#D6EFF4", border: "4px solid #D6EFF4" }}>DOI</div>
+              <div className='text-center fw-semibold py-1' style={{ width: "240px", border: "4px solid #D6EFF4" }}>{doi}</div>
             </div>
           </div>
 
@@ -189,7 +189,7 @@ const Profile = () => {
         <div className='fs-3 d-flex justify-content-center ' style={{ fontFamily: "Lora" }}> <em>Make Payment</em></div>
 
         <div className='d-flex justify-content-center mt-3 mb-4 pb-4'>
-          <div className='d-flex flex-column justify-content-start align-items-start p-3 rounded-5' style={{ backgroundColor: "#D7ECEF", width: "340px" }}>
+          <div className='d-flex flex-column justify-content-start align-items-start p-3 rounded-5' style={{ backgroundColor: "#D6EFF4", width: "340px" }}>
             <div className='fs-5 fw-semibold'>Club Membership of Month June</div>
             <div className='mt-3'>Make your membership payment here </div>
             <div className='d-flex justify-content-between mt-3' style={{ width: "100%" }}>

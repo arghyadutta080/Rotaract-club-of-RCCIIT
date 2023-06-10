@@ -7,9 +7,9 @@ function Navbar() {
 
   return (
     <div>
-      <header>
-        <nav className="navbar navbar-expand-lg">
-          <div className="container">
+      <header className='container-fluid'>
+        <nav className="container-fluid navbar navbar-expand-lg">
+          <div className="container-fluid">
             <img src={Club_Logo} style={{ height: "80px", width: "120px", marginRight: "40px" }} alt="" />
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
