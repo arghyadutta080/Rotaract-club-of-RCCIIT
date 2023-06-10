@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { set, useForm } from 'react-hook-form';
+import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
 import { Link, Navigate } from 'react-router-dom';
@@ -23,7 +23,6 @@ const Login = () => {
     const context = useContext(AuthContext);
     const isAuthenticated = context.isAuthenticated;
     const setIsAuthenticated = context.setIsAuthenticated;
-    const user = context.user;
     const setUser = context.setUser;
 
     const userLogin = (classRoll) => {

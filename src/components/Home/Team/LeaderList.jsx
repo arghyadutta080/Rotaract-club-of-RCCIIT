@@ -7,7 +7,7 @@ function LeaderList() {
         <div style={{ backgroundColor: "#F6C177" }}>
             <div className="album py-5">
                 <h1 style={{ fontFamily: "Lora" }}> <em>Team Leaders</em></h1>
-                <div className=" mt-5">
+                <div className=" mt-4">
                     <div className="row row-cols-1 row-cols-sm-2 row-cols-md-1 ">
                         <div id="carouselExampleControls" className="carousel slide container-fluid" data-ride="carousel" style={{ width: "670px" }}>
                             <div className="carousel-inner">
