@@ -4,11 +4,10 @@ import { AuthContext } from './AuthContext';
 
 const AuthState = (props) => {
     const [isAuthenticated, setIsAuthenticated] = useState(false);   
-    const [userRoll, setUserRoll] = useState('');
     const [user, setUser] = useState({});
     
     return (
-        <AuthContext.Provider value={{ isAuthenticated, setIsAuthenticated, userRoll, setUserRoll, user, setUser }}>
+        <AuthContext.Provider value={{ isAuthenticated, setIsAuthenticated, user, setUser }}>
             {props.children}
         </AuthContext.Provider>
     )

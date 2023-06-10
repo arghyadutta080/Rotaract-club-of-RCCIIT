@@ -5,6 +5,7 @@ import * as yup from 'yup';
 import { Link, Navigate } from 'react-router-dom';
 import axios from 'axios';
 import { AuthContext } from '../Context/Auth/AuthContext';
+import { Toaster, toast } from 'react-hot-toast';
 
 
 const schema = yup.object().shape({
@@ -22,22 +23,21 @@ const Login = () => {
     const context = useContext(AuthContext);
     const isAuthenticated = context.isAuthenticated;
     const setIsAuthenticated = context.setIsAuthenticated;
-    const userRoll = context.userRoll;
-    const setUserRoll = context.setUserRoll;
     const user = context.user;
     const setUser = context.setUser;
 
     const userLogin = (classRoll) => {
         axios.get(`https://aodzylv2p2.execute-api.ap-south-1.amazonaws.com/dev/user-by-roll/${classRoll}`)
             .then((response) => {
-                console.log(response.data);
-                setUser(response.data[0]);
-                setUserRoll(classRoll);
-                setIsAuthenticated(true);
+                // console.log(response.data);
+                const responseData = response.data[0]
+                console.log(responseData);
+                setUser(responseData);
+                (Object.keys(responseData).length === 0) ? setIsAuthenticated(false) : setIsAuthenticated(true);
             })
             .catch(error => {
                 console.error(error);
-                setIsAuthenticated(false);
+                toast.error("User doesn't exist");
             });
     }
 
@@ -75,6 +75,9 @@ const Login = () => {
                                 <button className="my-4 fw-semibold btn btn-lg rounded-pill" style={{ backgroundColor: "#B4637A", color: "white", width: "70%" }} type="submit">Login Now</button>
                                 <Link to="/" style={{ color: "#B4637A" }}>Back to Home</Link>
                             </div>
+
+                            <Toaster position="top-center" reverseOrder={false} />
+
                         </div>
                     </div>
                 </form>
