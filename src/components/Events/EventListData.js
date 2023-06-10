@@ -47,8 +47,57 @@ export const event_2023 = [
         desc: "In the event different Rotaract clubs arranged stalls to sell goods and refreshments. Rotaract Club of RCCIIT also arranged a food stall.", 
         more: "https://docs.google.com/document/d/10wYAJeJkZmKtGq_jpE_BIcGpxpNXXmVT/edit#heading=h.gjdgxs"
     },
-    
+    {
+        name: "Rota Shilpokrom",
+        date: "18th & 19th February, 2023",
+        time: "",
+        venue: "B.D. Memorial International School",
+        desc: "ROTA SHILPOKROM-CRAFT for a Cause is the event to support the hardworking artists.",
+        more: "https://docs.google.com/document/d/1xoj-VHm_nZPvDVZzfpe6pzH8x2-EGesn/edit"
+    },
+    {
+        name: "Virangana",
+        date: "6th February, 2023",
+        time: "",
+        venue: "C.M.O High School(H.S)",
+        desc: "This event basically aimed of empowering girls through self-defence awareness workshop with great enthusiasm.",
+        more: "https://docs.google.com/document/d/14yOjMnJ86JUUfoyXrN-6gQ__CqLDz3IK/edit"
+    }, 
+    {
+        name: "Advent",
+        date: "11th January, 2023",
+        time: "",
+        venue: "RCCIIT Auditorium",
+        desc: "Our club, Rotaract Club of RCCIIT celebrated our 5th installation ceremony at our college auditorium.",
+        more: "https://docs.google.com/document/d/13_cBQBOjph-RY_i_1c3um7br15HpBpEB/edit"
+    },
+    {
+        name: " চিত্রgraphy V.2",
+        date: "1st - 10th January, 2023",
+        time: "",
+        venue: "Virtual",
+        desc: "Rotaract Club of KONNAGAR organised an online event known as চিত্রgraphy V.2, which was a Photography competition.",
+        more: "https://docs.google.com/document/d/1Cnc5r6lSXdf_AxalyFct7Ktk-b4dDQlk/edit"
+    },
+    {
+        name: "Subarna",
+        date: "8th January, 2023",
+        time: "",
+        venue: "Google Meet",
+        desc: "SUBARNA is an annual fundraising event organized by Rotary International to support charitable causes.",
+        more: "https://docs.google.com/document/d/1KAUUI1Czm4f_dIJWEVPJgGnfGsKnYlTL/edit"
+    },
+    {
+        name: "Code-4-Web",
+        date: "17th Nov, 2022 - 6th Jan, '23",
+        time: "",
+        venue: "Virtual",
+        desc: "This event organized by Rotaract Club of MCKVIE and Coders Club. It was an one month front end web-dev competition",
+        more: "https://docs.google.com/document/d/1oLLGNwjfDkD360bAtoQ1-dE5O6Jt4rL4/edit"
+    },  
 ]
+
+
 
 export const event_2022 = [
     {
