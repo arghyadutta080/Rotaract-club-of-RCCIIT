@@ -27,6 +27,10 @@ const Profile = () => {
     setIsAuthenticated(false);
   }
 
+  const notification = () => {
+    toast.error("Currently service is not activated")
+  }
+
 
   const updateProfile = () => {
     const profileID = userInfo.id;
@@ -196,7 +200,7 @@ const Profile = () => {
                 <div className='fw-semibold'>Due Date</div>
                 <div>30th June 2021</div>
               </div>
-              <button className="my-1 mx-0 py-2 btn fw-semibold rounded-pill" style={{ backgroundColor: "#B4637A", color: "white" }} type="submit">Pay Now</button>
+              <button onClick={notification} className="my-1 mx-0 py-2 btn fw-semibold rounded-pill" style={{ backgroundColor: "#B4637A", color: "white" }} type="submit">Pay Now</button>
             </div>
           </div>
         </div>

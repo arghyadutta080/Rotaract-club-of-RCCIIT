@@ -6,6 +6,8 @@ import Footer from '../components/Footer';
 import Services from '../components/Home/Services';
 import LeaderList from '../components/Home/Team/LeaderList';
 
+import { Toaster } from 'react-hot-toast';
+
 const HomePage = () => {
   return (
     <div>
@@ -13,8 +15,12 @@ const HomePage = () => {
       <Home />
       <About />
       <Services />
-      <LeaderList/>
+      <LeaderList />
       <Footer />
+      <Toaster
+        position="top-center"
+        reverseOrder={false}
+      />
     </div>
   )
 }

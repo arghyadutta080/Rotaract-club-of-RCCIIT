@@ -3,8 +3,15 @@ import { Link } from 'react-router-dom'
 import { FaFacebookSquare } from 'react-icons/fa'
 import { BsInstagram, BsLinkedin } from 'react-icons/bs'
 
+import { toast } from 'react-hot-toast'
+
 
 function Footer() {
+
+    const notification = () => {
+        toast.error("Currently service is not activated")
+    }
+
     return (
         <div style={{ backgroundColor: "#114541" }}>
             <footer className="">
@@ -30,7 +37,7 @@ function Footer() {
                         <div className='d-flex flex-column align-items-center justify-content-center mt-4'>
                             <div>
                                 <p>Not a member of Rotaract Club of RCCIIT ?</p>
-                                <button className="btn" type="submit" style={{ color: "white", backgroundColor: "#B4637A" }}><a className="nav-link fw-semibold fs-6" href="#">Join Us</a></button>
+                                <button onClick={notification} className="btn" type="submit" style={{ color: "white", backgroundColor: "#B4637A" }}><Link className="nav-link fw-semibold fs-6" to="/">Join Us</Link></button>
                             </div>
                         </div>
                     </div>

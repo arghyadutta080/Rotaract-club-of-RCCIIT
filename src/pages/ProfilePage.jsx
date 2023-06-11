@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { AuthContext } from '../components/Context/Auth/AuthContext'
 import { Navigate } from 'react-router-dom'
+import { Toaster } from 'react-hot-toast'
 
 import Profile from '../components/Authentication/Profile'
 
@@ -17,6 +18,10 @@ const ProfilePage = () => {
   return (
     <div >
       <Profile/>
+      <Toaster
+        position="top-center"
+        reverseOrder={false}
+      />
     </div>
   )
 }
