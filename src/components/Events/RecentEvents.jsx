@@ -36,7 +36,7 @@ const RecentEvents = () => {
                 {
                     events.map((event, index) => {
                         return (
-                            <div key={index} className='d-flex flex-column justify-content-start align-items-start align-content-around p-3 mx-4 rounded-4 my-2' style={{ backgroundColor: "#D7ECEF", minWidth: "200px", maxWidth: "370px" }}>
+                            <div key={index} className='d-flex flex-column justify-content-start align-items-start align-content-around p-3 mx-4 rounded-4 my-2' style={{ backgroundColor: "#D7ECEF", minWidth: "300px", maxWidth: "370px" }}>
                                 <div className='fw-semibold fs-3'>{event.name}</div>
                                 <div className='fw-normal my-2 text-left' style={{ textAlign: "left" }}>{event.desc.replace(/(<([^>]+)>)/ig, "")}</div>
                                 <div className='fw-semibold mt-1' style={{ color: "#9893A5" }}>{`${event.date} • ${event.time}`}</div>
