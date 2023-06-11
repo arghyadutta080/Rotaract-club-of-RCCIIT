@@ -4,7 +4,7 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
 import { Link, Navigate } from 'react-router-dom';
 import axios from 'axios';
-import { AuthContext } from '../Context/Auth/AuthContext';
+import { AuthContext } from '../../Context/Auth/AuthContext';
 import { Toaster, toast } from 'react-hot-toast';
 
 

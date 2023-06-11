@@ -10,7 +10,7 @@ import ProfilePage from './pages/ProfilePage';
 import SignUp from './components/Authentication/SignUp'
 import Login from './components/Authentication/LogIn'
 
-import AuthState from './components/Context/Auth/AuthState';
+import AuthState from './Context/Auth/AuthState';
 
 import {
   BrowserRouter as Router,

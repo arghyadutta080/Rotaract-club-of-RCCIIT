@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { AuthContext } from '../components/Context/Auth/AuthContext'
+import { AuthContext } from '../Context/Auth/AuthContext'
 import { Navigate } from 'react-router-dom'
 import { Toaster } from 'react-hot-toast'
 
@@ -17,7 +17,7 @@ const ProfilePage = () => {
 
   return (
     <div >
-      <Profile/>
+      <Profile />
       <Toaster
         position="top-center"
         reverseOrder={false}

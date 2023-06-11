@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react'
-import { AuthContext } from '../Context/Auth/AuthContext'
+import { AuthContext } from '../../Context/Auth/AuthContext'
 import { CiLogout } from 'react-icons/ci'
 import Navbar from '../Navbar'
 import Footer from '../Footer'
