@@ -18,7 +18,7 @@
 <a href="/" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=aws" alt="_aws" width="37" height="37"/> </a> 
 </p>
 
-## <h3> Hoster on : </h3>
+## <h3> Hosted on : </h3>
 
 <p align="left">
 <a href="https://vercel.com/dashboard" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=vercel" alt="vercel" width="39" height="39"/> 
