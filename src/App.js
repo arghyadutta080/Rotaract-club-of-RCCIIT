@@ -9,7 +9,6 @@ import ProfilePage from './pages/ProfilePage';
 // importing profile pages components
 import SignUp from './components/Authentication/SignUp'
 import Login from './components/Authentication/LogIn'
-import Profile from './components/Authentication/Profile'
 
 import AuthState from './components/Context/Auth/AuthState';
 

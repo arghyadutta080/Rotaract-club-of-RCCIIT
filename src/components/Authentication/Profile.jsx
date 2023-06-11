@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react'
+import React, { useState, useContext } from 'react'
 import { AuthContext } from '../Context/Auth/AuthContext'
 import { CiLogout } from 'react-icons/ci'
 import Navbar from '../Navbar'
@@ -11,7 +11,6 @@ const Profile = () => {
 
   const context = useContext(AuthContext);
   const userInfo = context.user;
-  const isAuthenticated = context.isAuthenticated;
   const setIsAuthenticated = context.setIsAuthenticated;
 
   const [user, setUser] = useState(userInfo.username);
