@@ -32,7 +32,7 @@ const RecentEvents = () => {
     return (
         <>
             <div className='d-flex justify-content-start fs-4 mb-2 mt-2 container' style={{ fontFamily: "Lora" }}> <em className='mx-4'>Recent Events</em></div>
-            <div className='d-flex justify-content-center container'>
+            <div className='d-flex justify-content-center flex-wrap container'>
                 {
                     events.map((event, index) => {
                         return (
