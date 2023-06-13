@@ -168,7 +168,7 @@ export const event_2022 = [
         date: "28th October, 2022",
         time: "",
         venue: "RCCIIT Campus",
-        desc: "The Rotaract club of RCCIIT ushered in Diwali,festival of lights with a diya painting competition “Dazzle”. ",
+        desc: "The Rotaract club of RCCIIT ushered in Diwali,festival of lights with a diya painting competition “Dazzle”.",
         more: "https://docs.google.com/document/d/1xOnD7UjXGSML_QaXxjUyEh27bfaLl47H/edit"
     },
     {
@@ -184,7 +184,71 @@ export const event_2022 = [
         date: "16th October, 2022",
         time: "",
         venue: "Streets",
-        desc: "The Rotaract and Rotary clubs of District 3291 got together on 16th October for the initiative “Pawsitive”. ",
+        desc: "The Rotaract and Rotary clubs of District 3291 got together on 16th October for the initiative “Pawsitive”.",
         more: "https://docs.google.com/document/d/15o6TV95zzrsLTauOPRIqVxkuTQxJ9msg/edit"
-    }
+    },
+    {
+        name: "Bandana",
+        date: "30th September",
+        time: "",
+        venue: "Not Applicable",
+        desc: "It was an event where pandal hopping was enjoyed with friends on the auspicious day of Maha Panchami.",
+        more: "https://docs.google.com/document/d/1kNL5vsWQWpk_ibbvp0OtRxhXzOiA6voL/edit"
+    },
+    {
+        name: "Sharod Swikriti",
+        date: "30th  September 2022",
+        time: "",
+        venue: "Not Available",
+        desc: "Sharod Swikriti was organised by Rotary Rotaract District 3291 where rotaractors celebrated the homecoming of Goddess Durga.",
+        more: "https://docs.google.com/document/d/1Sx7KlFyQh1mAbyDSKDkbRqFzbkhOQBm9/edit"
+    },
+    {
+        name: "ইচ্ছেডানা",
+        date: "26th & 28th Sep, 2022",
+        time: "",
+        venue: "Hope Foundation",
+        desc: "Rotaract Club of RCCIIT hosted the flagship event 'ইচ্ছেডানা, organised by Rotaract Club of Calcutta Diamond.",
+        more: "https://docs.google.com/document/d/1054-FV2JBEH4z07TUYigrzvT55MfQZLj/edit"
+    },
+    {
+        name: "",
+        date: "",
+        time: "",
+        venue: "",
+        desc: "",
+        more: ""
+    },
+    {
+        name: "Know Dementia, Know Alzheimer’s",
+        date: "15th September 2022",
+        time: "",
+        venue: "Zoom Meeting",
+        desc: " Organised by Rotaract Club of MCKVIE, Rotaract Club of RCCIIT & Rotaract Club of Calcutta Universe",
+        more: "https://docs.google.com/document/d/1WJcqzy9h9Xi3aI8wD12w0Oum0jhFFqO5/edit"
+    },  
+    {
+        name: "District Installation",
+        date: "10th September 2022",
+        time: "",
+        venue: "Sarala Roy Memorial Hall",
+        desc: "Rotaract District Organisation 3291 had organised, THE ORDER OF THE PHOENIX - The District Installation and Changeover Ceremony.",
+        more: "https://docs.google.com/document/d/1nDmnjHBG1GBf1DaxNrtsgXQY5R1jayep/edit#heading=h.30j0zll"
+    },
+    {
+        name: "Manyata",
+        date: "4th September, 2022",
+        time: "",
+        venue: "South City International School Auditorium",
+        desc: "Rotaract District 3291 Organised 'Manyata', the Rotaract District Awards 2022 of RID 3291.",
+        more: "https://docs.google.com/document/d/16HFiGuJq4qxjwNy07VPG_ixa844VkB6A/edit"
+    },   
+    {
+        name: "Uma-Aalor Roshnai",
+        date: "Not Available",
+        time: "",
+        venue: "Not Available",
+        desc: "Rotaract Club of Calcutta North West organised their biggest flagship event Uma-Aalor Roshnai in September.",
+        more: "https://docs.google.com/document/d/1aSW2A-Cb5mE7nUzo92D4LcdAEqvjUXKr/edit"
+    },
 ]

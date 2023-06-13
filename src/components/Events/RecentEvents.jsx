@@ -31,18 +31,18 @@ const events = [
 const RecentEvents = () => {
     return (
         <>
-            <div className='d-flex justify-content-start fs-4 mb-2 mt-4 pt-2 container' style={{ fontFamily: "Lora" }}> <em className='mx-4'>Recent Events</em></div>
+            <div className='d-flex justify-content-start fs-4 mb-2 mt-2 container' style={{ fontFamily: "Lora" }}> <em className='mx-4'>Recent Events</em></div>
             <div className='d-flex justify-content-center container'>
                 {
                     events.map((event, index) => {
                         return (
-                            <div key={index} className='d-flex flex-column justify-content-start align-items-start align-content-around p-3 mx-4 rounded-4 my-2' style={{ backgroundColor: "#D7ECEF", minWidth: "320px", maxWidth: "370px" }}>
+                            <div key={index} className='d-flex flex-column justify-content-start align-items-start align-content-around p-3 mx-4 rounded-4 my-2' style={{ backgroundColor: "#D7ECEF", minWidth: "320px", maxWidth: "360px" }}>
                                 <div className='fw-semibold fs-3'>{event.name}</div>
                                 <div className='fw-normal my-2 text-left' style={{ textAlign: "left" }}>{event.desc.replace(/(<([^>]+)>)/ig, "")}</div>
                                 <div className='fw-semibold mt-1' style={{ color: "#9893A5" }}>{`${event.date} • ${event.time}`}</div>
                                 <div className='fw-semibold mb-1' style={{ color: "#9893A5" }}>{event.venue}</div>
-                                <div className=''>
-                                    <img src={event.img} alt={event.name} className='img-fluid my-3' />
+                                <div className='d-flex justify-content-center align-items-center' style={{ width: "100%" }} >
+                                    <img src={event.img} alt={event.name} className='img-fluid my-3' style={{ width: "270px", height: "270px" }}/>
                                 </div>
                             </div>
                         )
