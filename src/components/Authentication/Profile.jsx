@@ -5,6 +5,8 @@ import Navbar from '../Navbar'
 import Footer from '../Footer'
 import axios from 'axios'
 import { Toaster, toast } from 'react-hot-toast'
+import payment from '../../Images/payment.png'
+import { Link } from 'react-router-dom'
 
 
 const Profile = () => {
@@ -25,10 +27,6 @@ const Profile = () => {
 
   const logout = () => {
     setIsAuthenticated(false);
-  }
-
-  const notification = () => {
-    toast.error("Currently service is not activated")
   }
 
 
@@ -200,7 +198,29 @@ const Profile = () => {
                 <div className='fw-semibold'>Due Date</div>
                 <div>30th June 2021</div>
               </div>
-              <button onClick={notification} className="my-1 mx-0 py-2 btn fw-semibold rounded-pill" style={{ backgroundColor: "#B4637A", color: "white" }} type="submit">Pay Now</button>
+              <button className="my-1 mx-0 py-2 btn fw-semibold rounded-pill" style={{ backgroundColor: "#B4637A", color: "white" }} type="submit" data-bs-toggle="modal" data-bs-target="#staticPayment">Pay Now</button>
+              {/* Modal */}
+              <div className="modal fade" id="staticPayment" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div className="modal-dialog modal-dialog-centered" style={{ width: "377px" }}>
+                  <div className="modal-content" >
+                    <div className="modal-header d-flex justify-content-between align-items-center" style={{ border: "2px solid white" }}>
+                      <div className="modal-title fs-2 fw-semibold" id="staticBackdropLabel">Pay : Rs. 50/-</div>
+                      <button type="button" className="btn-close" style={{ backgroundColor: "gray", color: "white", height: "25px", width: "25px" }} data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div className="modal-body">
+                      <div className='d-flex justify-content-around flex-wrap mb-4'>
+                        {/* Modal form */}
+                        <div style={{ width: "350px" }}>
+                          <img src={payment} alt="" style={{ height: "330px", width: "330px" }} />
+                          <p className='mt-4 pt-2'><span className='fw-bold pe-2'>*Note:</span>If you have payment due for M months, then you need to pay Rs. M x 50/- and don't forget to <span className='fw-semibold'>take a payment screenshot.</span></p>
+                          <button type="button" className="btn fw-semibold mt-3 fs-4" style={{ backgroundColor: "#B4637A" }} data-bs-dismiss="modal" ><Link to="/" style={{ color: "white", textDecoration: "none" }}>Click after payment</Link></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* End of Modal */}
             </div>
           </div>
         </div>
