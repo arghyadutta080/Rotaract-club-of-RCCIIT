@@ -9,7 +9,7 @@ import { toast } from 'react-hot-toast'
 function Footer() {
 
     const notification = () => {
-        toast.error("Currently service is not activated")
+        toast.error("Currently we are not accepting any new members")
     }
 
     return (
