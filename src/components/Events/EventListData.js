@@ -40,11 +40,11 @@ export const event_2023 = [
         more: "https://docs.google.com/document/d/1zX9zh_znzzCJuyfGnCQ5tXk6S01hh74y/edit"
     },
     {
-        name:"Food Vegas",
+        name: "Food Vegas",
         date: "5th March, 2023",
         time: "",
         venue: "Rotary Sadan, Kolkata",
-        desc: "In the event different Rotaract clubs arranged stalls to sell goods and refreshments. Rotaract Club of RCCIIT also arranged a food stall.", 
+        desc: "In the event different Rotaract clubs arranged stalls to sell goods and refreshments. Rotaract Club of RCCIIT also arranged a food stall.",
         more: "https://docs.google.com/document/d/10wYAJeJkZmKtGq_jpE_BIcGpxpNXXmVT/edit#heading=h.gjdgxs"
     },
     {
@@ -62,7 +62,7 @@ export const event_2023 = [
         venue: "C.M.O High School(H.S)",
         desc: "This event basically aimed of empowering girls through self-defence awareness workshop with great enthusiasm.",
         more: "https://docs.google.com/document/d/14yOjMnJ86JUUfoyXrN-6gQ__CqLDz3IK/edit"
-    }, 
+    },
     {
         name: "Advent",
         date: "11th January, 2023",
@@ -94,11 +94,8 @@ export const event_2023 = [
         venue: "Virtual",
         desc: "This event organized by Rotaract Club of MCKVIE and Coders Club. It was an one month front end web-dev competition",
         more: "https://docs.google.com/document/d/1oLLGNwjfDkD360bAtoQ1-dE5O6Jt4rL4/edit"
-    },  
+    },
 ]
-
-
-
 
 export const event_2022 = [
     {
@@ -147,6 +144,14 @@ export const event_2022 = [
         venue: "Football Ground",
         desc: "It is our Rota Soccer 2022 which a football tournament organized every year Rotaract 3291 where our club members participated.",
         more: "https://docs.google.com/document/d/1ukjASDnhOHS2f_YwtTDOwHRe5SKd69Oz/edit"
+    },
+    {
+        name: "Nivedan",
+        date: "",
+        time: "",
+        venue: "",
+        desc: "Nivedan was The Official Thanks giving event for the Year 2022-2023 through a get-together and cultural event event was a gathering and celebration.",
+        more: "https://docs.google.com/document/d/1nV3NhF-nHnlZdhVmVkji5F6crkl7Mraj/edit"
     },
     {
         name: "Happy Face",
@@ -213,24 +218,16 @@ export const event_2022 = [
         more: "https://docs.google.com/document/d/1054-FV2JBEH4z07TUYigrzvT55MfQZLj/edit"
     },
     {
-        name: "",
-        date: "",
-        time: "",
-        venue: "",
-        desc: "",
-        more: ""
-    },
-    {
         name: "Know Dementia, Know Alzheimer’s",
-        date: "15th September 2022",
+        date: "15th September ,2022",
         time: "",
         venue: "Zoom Meeting",
         desc: " Organised by Rotaract Club of MCKVIE, Rotaract Club of RCCIIT & Rotaract Club of Calcutta Universe",
         more: "https://docs.google.com/document/d/1WJcqzy9h9Xi3aI8wD12w0Oum0jhFFqO5/edit"
-    },  
+    },
     {
         name: "District Installation",
-        date: "10th September 2022",
+        date: "10th September, 2022",
         time: "",
         venue: "Sarala Roy Memorial Hall",
         desc: "Rotaract District Organisation 3291 had organised, THE ORDER OF THE PHOENIX - The District Installation and Changeover Ceremony.",
@@ -243,7 +240,7 @@ export const event_2022 = [
         venue: "South City International School Auditorium",
         desc: "Rotaract District 3291 Organised 'Manyata', the Rotaract District Awards 2022 of RID 3291.",
         more: "https://docs.google.com/document/d/16HFiGuJq4qxjwNy07VPG_ixa844VkB6A/edit"
-    },   
+    },
     {
         name: "Uma-Aalor Roshnai",
         date: "Not Available",
@@ -251,5 +248,118 @@ export const event_2022 = [
         venue: "Not Available",
         desc: "Rotaract Club of Calcutta North West organised their biggest flagship event Uma-Aalor Roshnai in September.",
         more: "https://docs.google.com/document/d/1aSW2A-Cb5mE7nUzo92D4LcdAEqvjUXKr/edit"
+    },
+    {
+        name: "Careerspace",
+        date: "7th August, 2022",
+        time: "",
+        venue: "Zoom Meetings",
+        desc: "A career development program was held on 7th August. Rotaract Club of RCCIIT jointly hosted this event with Rotaract Club of North Calcutta.",
+        more: "https://docs.google.com/document/d/1dkrG9-hKqgmpO32VwO1TBT4mNQf_l9Bj/edit"
+    },
+    {
+        name: "Hara Yatra- Phase II",
+        date: "12th Sep - 15th August, 2022",
+        time: "",
+        venue: "",
+        desc: "The event aimed at controlling pollution levels and global warming as well as creating awareness to plant and save trees.",
+        more: "https://docs.google.com/document/d/17gFzEsBLQ1PG6Qz6lGkqsfAcaiqd7UVI/edit"
+    },
+    {
+        name: "ROTARACT DISTRICT ASSEMBLY",
+        date: "28th August, 2022",
+        time: "",
+        venue: "B.D. Memorial International School.",
+        desc: "District 3291 arranged a District Assembly where embers from different clubs of different regions were present.",
+        more: "https://docs.google.com/document/d/1LY5A_G0E6Jlge_sVyF1YibXjHIpwp2Il/edit"
+    },
+    {
+        name: "MUSKAAN",
+        date: "15th August, 2022",
+        time: "",
+        venue: "Ahona Foundation, Manicktala",
+        desc: "The Rotaract Club of RCCIIT on the occasion of 76th Independence Day celebrated this event",
+        more: "https://docs.google.com/document/d/1uqCwJP1u-pcNYCmRWyJinkAEiVhuzoBR/edit"
+    },
+    {
+        name: "Once Up on A Time",
+        date: "17th August, 2022",
+        time: "",
+        venue: "SIT Hall",
+        desc: "RCMCKVIE took the initiative of organising a storytelling competition, Once Upon A Time.",
+        more: "https://docs.google.com/document/d/101dF-KkiixKTmpotM0EOU0Ub4o3xXCj9/edit"
+    },
+    {
+        name: "Rakhi with Khaki",
+        date: "12th August, 2022",
+        time: "",
+        venue: "Belur Police Station",
+        desc: "On the occasion of Raksha Bandhan, this event was held at Belur Police station where rakhis were tied to the hands of men wearing khaki.",
+        more: "https://docs.google.com/document/d/1z76ZwP2rGZ9TuypeVDfkN2o8N-Yo_xcP/edit"
+    },
+    {
+        name: "𝗨𝘁𝘀𝗮𝘃- 𝗔 𝗖𝗮𝗿𝗻𝗶𝘃𝗮𝗹 𝗜𝗻𝘁𝗲𝗿𝗰𝗵𝗮𝗻𝗴𝗲 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗲",
+        date: "26th August, 2022",
+        time: "",
+        venue: "Google Meet",
+        desc: "The Rotaract Club of Bhubaneshwar Utkal Incredibles organised a Cranial Interchange Program.",
+        more: "https://docs.google.com/document/d/1J_waL6-8cfiexTHW1TpDKSmlNYO9ngEv/edit"
+    },
+    {
+        name: "ROTA FAMILY",
+        date: "1st July, 2022 ",
+        time: "",
+        venue: "",
+        desc: "Rotaract Club of RCCIIT collaborated with ROTARACT CLUB OF AMBARNATH under ROTA FAMILY (An IS Initiative).",
+        more: "https://docs.google.com/document/d/1ThXswaV3FwaQHCmYfATeJvRJ7LmhWiSN/edit"
+    },
+    {
+        name: "ECO-LUTION 2.0",
+        date: "7th July - 14th July 2022",
+        time: "",
+        venue: "",
+        desc: "<p>Eco-lution 2.0 was an International Service Initiative on the occasion of WORLD PAPERBAG DAY.</p>",
+        more: "https://docs.google.com/document/d/1zT5p8JHgozhFxDquS5RgzAGCdMFM3M-V/edit#"
+    },
+    {
+        name: "Graphic Design Workshop 4.0",
+        date: "30th and 31st July 2022",
+        time: "",
+        venue: "Google meet",
+        desc: "<p>Rotaract Club Of RCCIIT took the initiative of organising Graphic Design Workshop 4.0. </p>",
+        more: "https://docs.google.com/document/d/1GcqYd6bh40dvU3LENzb6iI2bpzjTEuaH/edit#"
+    },
+    {
+        name: "Pad A Girl 2.0",
+        date: " 12th July, 2022",
+        time: "",
+        venue: "Bagbazaar Sarada Prathamickk Vidyalaya",
+        desc: "<p>Rotaract Club of North Calcutta took the initiative to organise Pad a Girl 2.0. </p>",
+        more: "https://docs.google.com/document/d/1bRdXFTMLtr5KLGcjbwEyWOiR2HZ7ZleI/edit#"
+    },
+    {
+        name: "Prakriti",
+        date: "28th July to 31st July",
+        time: "",
+        venue: "",
+        desc: "<p>This was an event to celebrate mother earth and to be more considerate and aware towards the safeguarding of our environment. </p>",
+        more: "https://docs.google.com/document/d/12idUdM9Yh0Z8br0tBHnyG9tP9sInqFhX/edit#"
+    },
+
+    {
+        name: "THE VIEW 3.0",
+        date: "31st July",
+        time: "",
+        venue: "Cafe by Lane",
+        desc: "This event was organized to promote the Hosting clubs, their works, ideologies and to promote the Rotaract in general.",
+        more: "https://docs.google.com/document/d/1yZ9l3eXvXk9vkSNCHJ1VDtmZj5IjUNf9/edit"
+    },
+    {
+        name: "SWACHH 2.0",
+        date: "31st July,2022",
+        time: "",
+        venue: " Mother’s Nest, Maniktala, Kolkata",
+        desc: "This was an awareness program focusing mainly on public awareness of water usage and water quality.",
+        more: "https://docs.google.com/document/d/1UPSAafjsmC97EGcPkzFn2lxMsm5rBY4A/edit"
     },
 ]
