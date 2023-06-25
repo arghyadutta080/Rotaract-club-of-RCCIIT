@@ -6,6 +6,7 @@ import { Link, Navigate } from 'react-router-dom';
 import axios from 'axios';
 import { AuthContext } from '../../Context/Auth/AuthContext';
 import { Toaster, toast } from 'react-hot-toast';
+import { PROFILE_API } from './api';
 
 
 const schema = yup.object().shape({
@@ -26,7 +27,7 @@ const Login = () => {
     const setUser = context.setUser;
 
     const userLogin = (classRoll) => {
-        axios.get(`https://aodzylv2p2.execute-api.ap-south-1.amazonaws.com/dev/user-by-roll/${classRoll}`)
+        axios.get(`${PROFILE_API}/dev/user-by-roll/${classRoll}`)
             .then((response) => {
                 // console.log(response.data);
                 const responseData = response.data[0]

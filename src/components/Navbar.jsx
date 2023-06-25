@@ -29,9 +29,9 @@ function Navbar() {
                   <Link className="nav-link active fw-semibold fs-5 mx-3" to="/team">Team</Link>
                 </li>
               </ul>
-              <form className="d-flex flex-row justify-content-center" role="search">
+              {/* <form className="d-flex flex-row justify-content-center" role="search">
                 <div className='py-1 px-3 rounded-3' style={{ color: "white", backgroundColor: "#B4637A" }}><Link className="nav-link fw-semibold fs-5" to="/profile">Profile</Link></div>
-              </form>
+              </form> */}
             </div>
           </div>
         </nav>

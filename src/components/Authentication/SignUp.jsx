@@ -5,6 +5,7 @@ import * as yup from 'yup';
 import { Link, Navigate } from 'react-router-dom';
 import axios from 'axios';
 import { Toaster, toast } from 'react-hot-toast';
+import { PROFILE_API } from './api';
 
 
 
@@ -40,7 +41,7 @@ const SignUp = () => {
             blood: data.blood,
             doi: data.doi
         }
-        axios.post('https://aodzylv2p2.execute-api.ap-south-1.amazonaws.com/dev/user', user)
+        axios.post(`${PROFILE_API}/dev/user`, user)
             .then((response) => {
                 console.log(response.data);
                 toast.success("Registration Successful");

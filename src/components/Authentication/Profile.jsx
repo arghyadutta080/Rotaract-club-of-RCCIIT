@@ -7,6 +7,7 @@ import axios from 'axios'
 import { Toaster, toast } from 'react-hot-toast'
 import payment from '../../Images/payment.png'
 import { Link } from 'react-router-dom'
+import { PROFILE_API } from './api';
 
 
 const Profile = () => {
@@ -42,7 +43,7 @@ const Profile = () => {
       blood: bloodGroup,
       doi: doi
     }
-    axios.put(`https://aodzylv2p2.execute-api.ap-south-1.amazonaws.com/dev/user/${profileID}`, updatedProfile)
+    axios.put(`${PROFILE_API}/dev/user/${profileID}`, updatedProfile)
       .then((response) => {
         console.log(response.data);
         toast.success("Profile Updated Successfully");
