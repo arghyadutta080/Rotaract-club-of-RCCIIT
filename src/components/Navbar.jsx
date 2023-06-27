@@ -1,9 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Club_Logo from '../Images/Club_Logo.png';
+import { toast } from 'react-hot-toast'
 
 
 function Navbar() {
+
+  const notification = () => {
+    toast.error("Service is under construction")
+  }
 
   return (
     <div>
@@ -32,6 +37,7 @@ function Navbar() {
               {/* <form className="d-flex flex-row justify-content-center" role="search">
                 <div className='py-1 px-3 rounded-3' style={{ color: "white", backgroundColor: "#B4637A" }}><Link className="nav-link fw-semibold fs-5" to="/profile">Profile</Link></div>
               </form> */}
+              <button onClick={notification} className="btn py-1 px-3 rounded-3" type="submit" style={{ color: "white", backgroundColor: "#B4637A" }}><Link className="nav-link fw-semibold fs-5" to="/">Profile</Link></button>
             </div>
           </div>
         </nav>

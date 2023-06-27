@@ -6,15 +6,7 @@ export const event_2023 = [
         venue: "Rotary Sadan, Kolkata",
         desc: "<p>The Rotaract Club of Calcutta Renaissance RID 3291 organized Barnali. Rotaract Club of RCCIIT co-hosted the event.</p>",
         more: "https://docs.google.com/document/d/12HMj5VsT6SQmjLv2ijW9-srOdSpjChY1/edit#"
-    },
-    {
-        name: "Rahaat Chapter-3",
-        date: "30 March & 1st April, 2023",
-        time: "",
-        venue: "Sunderbans",
-        desc: "This event was mainly organized to help the locals of Sunderbans as it is one of the most densely populated areas.",
-        more: "https://docs.google.com/document/d/1SCqr6PWRifnL4cyRcRRi14UgDrmGR1Dy/edit"
-    },
+    },  
     {
         name: "Initium",
         date: "18th March, 2023",
@@ -30,31 +22,7 @@ export const event_2023 = [
         venue: "RCCIIT Campus",
         desc: "Rotaract Club of RCCIIT organized a tree plantation drive in the college campus. The event was a huge success.",
         more: "https://docs.google.com/document/d/12MVxjxBz9W7doLYvfEYOfcWH0lpvYs34/edit"
-    },
-    {
-        name: "Ground Zero",
-        date: "11th March, 2023",
-        time: "",
-        venue: "Rotary Sadan, Kolkata",
-        desc: "Ground Zero V.8 was a competitive inter college literary meet that was aimed to engage students in different events.",
-        more: "https://docs.google.com/document/d/1zX9zh_znzzCJuyfGnCQ5tXk6S01hh74y/edit"
-    },
-    {
-        name: "Food Vegas",
-        date: "5th March, 2023",
-        time: "",
-        venue: "Rotary Sadan, Kolkata",
-        desc: "In the event different Rotaract clubs arranged stalls to sell goods and refreshments. Rotaract Club of RCCIIT also arranged a food stall.",
-        more: "https://docs.google.com/document/d/10wYAJeJkZmKtGq_jpE_BIcGpxpNXXmVT/edit#heading=h.gjdgxs"
-    },
-    {
-        name: "Rota Shilpokrom",
-        date: "18th & 19th February, 2023",
-        time: "",
-        venue: "B.D. Memorial International School",
-        desc: "ROTA SHILPOKROM-CRAFT for a Cause is the event to support the hardworking artists.",
-        more: "https://docs.google.com/document/d/1xoj-VHm_nZPvDVZzfpe6pzH8x2-EGesn/edit"
-    },
+    },  
     {
         name: "Virangana",
         date: "6th February, 2023",
@@ -71,30 +39,7 @@ export const event_2023 = [
         desc: "Our club, Rotaract Club of RCCIIT celebrated our 5th installation ceremony at our college auditorium.",
         more: "https://docs.google.com/document/d/13_cBQBOjph-RY_i_1c3um7br15HpBpEB/edit"
     },
-    {
-        name: " চিত্রgraphy V.2",
-        date: "1st - 10th January, 2023",
-        time: "",
-        venue: "Virtual",
-        desc: "Rotaract Club of KONNAGAR organised an online event known as চিত্রgraphy V.2, which was a Photography competition.",
-        more: "https://docs.google.com/document/d/1Cnc5r6lSXdf_AxalyFct7Ktk-b4dDQlk/edit"
-    },
-    {
-        name: "Subarna",
-        date: "8th January, 2023",
-        time: "",
-        venue: "Google Meet",
-        desc: "SUBARNA is an annual fundraising event organized by Rotary International to support charitable causes.",
-        more: "https://docs.google.com/document/d/1KAUUI1Czm4f_dIJWEVPJgGnfGsKnYlTL/edit"
-    },
-    {
-        name: "Code-4-Web",
-        date: "17th Nov, 2022 - 6th Jan, '23",
-        time: "",
-        venue: "Virtual",
-        desc: "This event organized by Rotaract Club of MCKVIE and Coders Club. It was an one month front end web-dev competition",
-        more: "https://docs.google.com/document/d/1oLLGNwjfDkD360bAtoQ1-dE5O6Jt4rL4/edit"
-    },
+    
 ]
 
 export const event_2022 = [
@@ -106,6 +51,74 @@ export const event_2022 = [
         desc: "Carnibell 3.0 was an joint initiative by Rotaract Club of RCCIIT and MCKVIE where all the fund raised was used for charitable cause.",
         more: "https://docs.google.com/document/d/15YSUlY9kvTmnWRpEAwUzFl0JccpZod8R/edit"
     },
+    {
+        name: "Induction",
+        date: "16th November, 2022",
+        time: "",
+        venue: "RCCIIT Auditorium",
+        desc: "The Induction Program for Freshers was organized to provide them with an overview of the college, faculties, clubs and societies.",
+    },
+    {
+        name: "Dazzle",
+        date: "28th October, 2022",
+        time: "",
+        venue: "RCCIIT Campus",
+        desc: "The Rotaract club of RCCIIT ushered in Diwali,festival of lights with a diya painting competition “Dazzle”.",
+        more: "https://docs.google.com/document/d/1xOnD7UjXGSML_QaXxjUyEh27bfaLl47H/edit"
+    },
+    {
+        name: "Vastra Upohar",
+        date: "21st October 2022",
+        time: "",
+        venue: "Rathtala, Garia",
+        desc: "Our club Rotaract Club of RCCIIT, took the initiative of reaching out to the idol makers and post puja days.",
+        more: "https://docs.google.com/document/d/1X8zoItTkB0Wt4q1ItV6VfKSv97ZrHEkx/edit"
+    },
+    {
+        name: "Pawsitive",
+        date: "16th October, 2022",
+        time: "",
+        venue: "Streets",
+        desc: "The Rotaract and Rotary clubs of District 3291 got together on 16th October for the initiative “Pawsitive”.",
+        more: "https://docs.google.com/document/d/15o6TV95zzrsLTauOPRIqVxkuTQxJ9msg/edit"
+    },
+    {
+        name: "Know Dementia, Know Alzheimer’s",
+        date: "15th September ,2022",
+        time: "",
+        venue: "Zoom Meeting",
+        desc: " Organised by Rotaract Club of MCKVIE, Rotaract Club of RCCIIT & Rotaract Club of Calcutta Universe",
+        more: "https://docs.google.com/document/d/1WJcqzy9h9Xi3aI8wD12w0Oum0jhFFqO5/edit"
+    },   
+    {
+        name: "ROTARACT DISTRICT ASSEMBLY",
+        date: "28th August, 2022",
+        time: "",
+        venue: "B.D. Memorial International School.",
+        desc: "District 3291 arranged a District Assembly where embers from different clubs of different regions were present.",
+        more: "https://docs.google.com/document/d/1LY5A_G0E6Jlge_sVyF1YibXjHIpwp2Il/edit"
+    },
+    {
+        name: "MUSKAAN",
+        date: "15th August, 2022",
+        time: "",
+        venue: "Ahona Foundation, Manicktala",
+        desc: "The Rotaract Club of RCCIIT on the occasion of 76th Independence Day celebrated this event",
+        more: "https://docs.google.com/document/d/1uqCwJP1u-pcNYCmRWyJinkAEiVhuzoBR/edit"
+    },    
+    {
+        name: "Graphic Design Workshop 4.0",
+        date: "30th and 31st July 2022",
+        time: "",
+        venue: "Google meet",
+        desc: "<p>Rotaract Club Of RCCIIT took the initiative of organising Graphic Design Workshop 4.0. </p>",
+        more: "https://docs.google.com/document/d/1GcqYd6bh40dvU3LENzb6iI2bpzjTEuaH/edit#"
+    },
+]
+
+
+
+export const collaboration_2022 = [
     {
         name: "Cauldrons party",
         date: "18th December, 2022",
@@ -121,13 +134,6 @@ export const event_2022 = [
         venue: "Haldiram banquets",
         desc: "This event was organised by Rotary Means BUSINESS Fellowship in association with George Institute.",
         more: "https://docs.google.com/document/d/1puCNJXGCd7UhH4CMk8M9f30DPb7iUm1c/edit"
-    },
-    {
-        name: "Induction",
-        date: "16th November, 2022",
-        time: "",
-        venue: "RCCIIT Auditorium",
-        desc: "The Induction Program for Freshers was organized to provide them with an overview of the college, faculties, clubs and societies.",
     },
     {
         name: "Paridhan",
@@ -170,28 +176,12 @@ export const event_2022 = [
         more: "https://docs.google.com/document/d/19B6K2wXKsGRDmL4ZA3zPQ7elZne_sNvI/edit"
     },
     {
-        name: "Dazzle",
-        date: "28th October, 2022",
+        name: "Sharod Swikriti",
+        date: "30th  September 2022",
         time: "",
-        venue: "RCCIIT Campus",
-        desc: "The Rotaract club of RCCIIT ushered in Diwali,festival of lights with a diya painting competition “Dazzle”.",
-        more: "https://docs.google.com/document/d/1xOnD7UjXGSML_QaXxjUyEh27bfaLl47H/edit"
-    },
-    {
-        name: "Vastra Upohar",
-        date: "21st October 2022",
-        time: "",
-        venue: "Rathtala, Garia",
-        desc: "Our club Rotaract Club of RCCIIT, took the initiative of reaching out to the idol makers and post puja days.",
-        more: "https://docs.google.com/document/d/1X8zoItTkB0Wt4q1ItV6VfKSv97ZrHEkx/edit"
-    },
-    {
-        name: "Pawsitive",
-        date: "16th October, 2022",
-        time: "",
-        venue: "Streets",
-        desc: "The Rotaract and Rotary clubs of District 3291 got together on 16th October for the initiative “Pawsitive”.",
-        more: "https://docs.google.com/document/d/15o6TV95zzrsLTauOPRIqVxkuTQxJ9msg/edit"
+        venue: "Not Available",
+        desc: "Sharod Swikriti was organised by Rotary Rotaract District 3291 where rotaractors celebrated the homecoming of Goddess Durga.",
+        more: "https://docs.google.com/document/d/1Sx7KlFyQh1mAbyDSKDkbRqFzbkhOQBm9/edit"
     },
     {
         name: "Bandana",
@@ -202,28 +192,12 @@ export const event_2022 = [
         more: "https://docs.google.com/document/d/1kNL5vsWQWpk_ibbvp0OtRxhXzOiA6voL/edit"
     },
     {
-        name: "Sharod Swikriti",
-        date: "30th  September 2022",
-        time: "",
-        venue: "Not Available",
-        desc: "Sharod Swikriti was organised by Rotary Rotaract District 3291 where rotaractors celebrated the homecoming of Goddess Durga.",
-        more: "https://docs.google.com/document/d/1Sx7KlFyQh1mAbyDSKDkbRqFzbkhOQBm9/edit"
-    },
-    {
         name: "ইচ্ছেডানা",
         date: "26th & 28th Sep, 2022",
         time: "",
         venue: "Hope Foundation",
         desc: "Rotaract Club of RCCIIT hosted the flagship event 'ইচ্ছেডানা, organised by Rotaract Club of Calcutta Diamond.",
         more: "https://docs.google.com/document/d/1054-FV2JBEH4z07TUYigrzvT55MfQZLj/edit"
-    },
-    {
-        name: "Know Dementia, Know Alzheimer’s",
-        date: "15th September ,2022",
-        time: "",
-        venue: "Zoom Meeting",
-        desc: " Organised by Rotaract Club of MCKVIE, Rotaract Club of RCCIIT & Rotaract Club of Calcutta Universe",
-        more: "https://docs.google.com/document/d/1WJcqzy9h9Xi3aI8wD12w0Oum0jhFFqO5/edit"
     },
     {
         name: "District Installation",
@@ -266,22 +240,6 @@ export const event_2022 = [
         more: "https://docs.google.com/document/d/17gFzEsBLQ1PG6Qz6lGkqsfAcaiqd7UVI/edit"
     },
     {
-        name: "ROTARACT DISTRICT ASSEMBLY",
-        date: "28th August, 2022",
-        time: "",
-        venue: "B.D. Memorial International School.",
-        desc: "District 3291 arranged a District Assembly where embers from different clubs of different regions were present.",
-        more: "https://docs.google.com/document/d/1LY5A_G0E6Jlge_sVyF1YibXjHIpwp2Il/edit"
-    },
-    {
-        name: "MUSKAAN",
-        date: "15th August, 2022",
-        time: "",
-        venue: "Ahona Foundation, Manicktala",
-        desc: "The Rotaract Club of RCCIIT on the occasion of 76th Independence Day celebrated this event",
-        more: "https://docs.google.com/document/d/1uqCwJP1u-pcNYCmRWyJinkAEiVhuzoBR/edit"
-    },
-    {
         name: "Once Up on A Time",
         date: "17th August, 2022",
         time: "",
@@ -321,14 +279,7 @@ export const event_2022 = [
         desc: "<p>Eco-lution 2.0 was an International Service Initiative on the occasion of WORLD PAPERBAG DAY.</p>",
         more: "https://docs.google.com/document/d/1zT5p8JHgozhFxDquS5RgzAGCdMFM3M-V/edit#"
     },
-    {
-        name: "Graphic Design Workshop 4.0",
-        date: "30th and 31st July 2022",
-        time: "",
-        venue: "Google meet",
-        desc: "<p>Rotaract Club Of RCCIIT took the initiative of organising Graphic Design Workshop 4.0. </p>",
-        more: "https://docs.google.com/document/d/1GcqYd6bh40dvU3LENzb6iI2bpzjTEuaH/edit#"
-    },
+
     {
         name: "Pad A Girl 2.0",
         date: " 12th July, 2022",
@@ -345,7 +296,6 @@ export const event_2022 = [
         desc: "<p>This was an event to celebrate mother earth and to be more considerate and aware towards the safeguarding of our environment. </p>",
         more: "https://docs.google.com/document/d/12idUdM9Yh0Z8br0tBHnyG9tP9sInqFhX/edit#"
     },
-
     {
         name: "THE VIEW 3.0",
         date: "31st July",
@@ -361,5 +311,65 @@ export const event_2022 = [
         venue: " Mother’s Nest, Maniktala, Kolkata",
         desc: "This was an awareness program focusing mainly on public awareness of water usage and water quality.",
         more: "https://docs.google.com/document/d/1UPSAafjsmC97EGcPkzFn2lxMsm5rBY4A/edit"
+    },
+]
+
+
+export const collaboration_2023 = [
+    {
+        name: "Rahaat Chapter-3",
+        date: "30 March & 1st April, 2023",
+        time: "",
+        venue: "Sunderbans",
+        desc: "This event was mainly organized to help the locals of Sunderbans as it is one of the most densely populated areas.",
+        more: "https://docs.google.com/document/d/1SCqr6PWRifnL4cyRcRRi14UgDrmGR1Dy/edit"
+    },
+    {
+        name: "Ground Zero",
+        date: "11th March, 2023",
+        time: "",
+        venue: "Rotary Sadan, Kolkata",
+        desc: "Ground Zero V.8 was a competitive inter college literary meet that was aimed to engage students in different events.",
+        more: "https://docs.google.com/document/d/1zX9zh_znzzCJuyfGnCQ5tXk6S01hh74y/edit"
+    },
+    {
+        name: "Food Vegas",
+        date: "5th March, 2023",
+        time: "",
+        venue: "Rotary Sadan, Kolkata",
+        desc: "In the event different Rotaract clubs arranged stalls to sell goods and refreshments. Rotaract Club of RCCIIT also arranged a food stall.",
+        more: "https://docs.google.com/document/d/10wYAJeJkZmKtGq_jpE_BIcGpxpNXXmVT/edit#heading=h.gjdgxs"
+    },
+    {
+        name: "Rota Shilpokrom",
+        date: "18th & 19th February, 2023",
+        time: "",
+        venue: "B.D. Memorial International School",
+        desc: "ROTA SHILPOKROM-CRAFT for a Cause is the event to support the hardworking artists.",
+        more: "https://docs.google.com/document/d/1xoj-VHm_nZPvDVZzfpe6pzH8x2-EGesn/edit"
+    },
+    {
+        name: " চিত্রgraphy V.2",
+        date: "1st - 10th January, 2023",
+        time: "",
+        venue: "Virtual",
+        desc: "Rotaract Club of KONNAGAR organised an online event known as চিত্রgraphy V.2, which was a Photography competition.",
+        more: "https://docs.google.com/document/d/1Cnc5r6lSXdf_AxalyFct7Ktk-b4dDQlk/edit"
+    },
+    {
+        name: "Subarna",
+        date: "8th January, 2023",
+        time: "",
+        venue: "Google Meet",
+        desc: "SUBARNA is an annual fundraising event organized by Rotary International to support charitable causes.",
+        more: "https://docs.google.com/document/d/1KAUUI1Czm4f_dIJWEVPJgGnfGsKnYlTL/edit"
+    },
+    {
+        name: "Code-4-Web",
+        date: "17th Nov, 2022 - 6th Jan, '23",
+        time: "",
+        venue: "Virtual",
+        desc: "This event organized by Rotaract Club of MCKVIE and Coders Club. It was an one month front end web-dev competition",
+        more: "https://docs.google.com/document/d/1oLLGNwjfDkD360bAtoQ1-dE5O6Jt4rL4/edit"
     },
 ]

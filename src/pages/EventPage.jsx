@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import RecentEvents from '../components/Events/RecentEvents'
 import EventList from '../components/Events/EventList'
+import Collaboration from '../components/Events/Collaboration'
 
 const EventPage = () => {
   return (
@@ -16,6 +17,7 @@ const EventPage = () => {
       <div className='container'>
         <RecentEvents />
         <EventList />
+        <Collaboration />
       </div>
 
       <Footer />
