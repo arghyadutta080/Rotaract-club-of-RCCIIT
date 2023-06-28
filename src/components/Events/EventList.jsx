@@ -1,6 +1,9 @@
 import React from 'react'
 import { event_2022, event_2023, collaboration_2022, collaboration_2023 } from './EventListData'
-import { ScrollingCarousel } from '@trendyol-js/react-carousel';
+
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
+
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -25,12 +28,38 @@ const EventList = () => {
                 </div>
             </div>
 
-            <div className='d-flex justify-content-start flex-wrap container'>
-                <ScrollingCarousel show={3} slide={3} swiping={true} className='d-flex justify-content-start flex-wrap'>
+            <div className='container'>
+                <AliceCarousel
+                    autoPlay
+                    autoPlayInterval={1000}
+                    infinite
+                    items={eventYear.length}
+                    disableButtonsControls
+                    disableDotsControls
+                    mouseTracking
+                    itemsInSlide={4}
+                    responsive={{
+                        0: { items: 1 },
+                        576: { items: 2 },
+                        768: { items: 3 },
+                        992: { items: 4 },
+                    }} className='container' >
                     {
                         eventYear.map((event, index) => {
                             return (
-                                <div key={index} className='d-flex flex-column justify-content-evenly mx-3 px-4 rounded-4 mt-2 mb-5' style={{ backgroundColor: "#D7ECEF", width: "300px", height: "340px" }}>
+                                <div key={index} style={{
+                                    display: 'flex',
+                                    flexDirection: 'column',
+                                    justifyContent: 'space-evenly',
+                                    marginLeft: '1.15rem',
+                                    marginRight: '1.15rem',
+                                    paddingLeft: '1rem',
+                                    paddingRight: '1rem',
+                                    borderRadius: '0.5rem',
+                                    marginTop: '0.5rem',
+                                    marginBottom: '1.25rem',
+                                    backgroundColor: "#D7ECEF", width: "300px", height: "340px"
+                                }} >
                                     <div className='fw-semibold fs-5' style={{ textAlign: "left" }}>{event.name}</div>
                                     <div className='fw-normal' style={{ textAlign: "left" }}>{event.desc.replace(/(<([^>]+)>)/ig, "")}</div>
                                     <div className='d-flex flex-column'>
@@ -42,7 +71,7 @@ const EventList = () => {
                             )
                         })
                     }
-                </ScrollingCarousel>
+                </AliceCarousel>
             </div>
         </>
     )

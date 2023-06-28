@@ -44,7 +44,7 @@ export const leaders = [
         colleagues and juniors for their immense support and trust.
         
         We as a team are always going to strive in order to take our club to new heights and achieve great
-        things.`,
+        things together.`,
     },
     {
         role: "Treasurer",

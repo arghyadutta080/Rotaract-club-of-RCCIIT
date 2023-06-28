@@ -11,13 +11,13 @@ const EventPage = () => {
       <Navbar />
 
       <div className='container'>
-        <div className='display-4 d-flex justify-content-center mb-4 pt-1 container' style={{ fontFamily: "Lora" }}> <em className='mx-3'>Our Events</em></div>
+        <div className='display-4 d-flex justify-content-center mb-4 pt-1 container' style={{ fontFamily: "Lora" }}> <em className='mx-3'>Club Events</em></div>
       </div>
 
       <div className='container'>
         <RecentEvents />
         <EventList />
-        <Collaboration />
+        <Collaboration/>
       </div>
 
       <Footer />

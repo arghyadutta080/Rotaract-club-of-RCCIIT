@@ -1,6 +1,10 @@
 import React from 'react'
+
 import { collaboration_2022, collaboration_2023 } from './EventListData'
-import { ScrollingCarousel } from '@trendyol-js/react-carousel';
+
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
+
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -10,7 +14,7 @@ const Collaboration = () => {
     const [collaborationYear, setCollaborationYear] = useState(collaboration_2023);
 
     return (
-        <>
+        <div style={{ marginBottom: "3rem" }}>
             <div className='d-flex justify-content-start'>
                 <div className='d-flex justify-content-center align-items-center flex-wrap fs-4 mb-3 mt-4 pt-3 container' style={{ fontFamily: "Lora" }}>
                     <em className='mx-4'>Past Collaborations from</em>
@@ -26,12 +30,38 @@ const Collaboration = () => {
                 </div>
             </div>
 
-            <div className='d-flex justify-content-start flex-wrap container'>
-                <ScrollingCarousel show={3} slide={3} swiping={true} className='d-flex justify-content-start flex-wrap'>
+            <div className='container'>
+                <AliceCarousel
+                    autoPlay
+                    reverse
+                    autoPlayInterval={1300}
+                    infinite
+                    items={collaborationYear.length}
+                    disableButtonsControls
+                    disableDotsControls
+                    mouseTracking
+                    itemsInSlide={4}
+                    responsive={{
+                        0: { items: 1 },
+                        576: { items: 2 },
+                        768: { items: 3 },
+                        992: { items: 4 },
+                    }} className='container'>
                     {
                         collaborationYear.map((event, index) => {
                             return (
-                                <div key={index} className='d-flex flex-column justify-content-evenly mx-3 px-4 rounded-4 mt-2 mb-5' style={{ backgroundColor: "#D7ECEF", width: "300px", height: "340px" }}>
+                                <div key={index} style={{
+                                    display: 'flex',
+                                    flexDirection: 'column',
+                                    justifyContent: 'space-evenly',
+                                    marginLeft: '1.15rem',
+                                    marginRight: '1.15rem',
+                                    paddingLeft: '1rem',
+                                    paddingRight: '1rem',
+                                    borderRadius: '0.5rem',
+                                    marginTop: '0.5rem',
+                                    marginBottom: '1.25rem',
+                                    backgroundColor: "#D7ECEF", width: "300px", height: "340px" }}>
                                     <div className='fw-semibold fs-5' style={{ textAlign: "left" }}>{event.name}</div>
                                     <div className='fw-normal' style={{ textAlign: "left" }}>{event.desc.replace(/(<([^>]+)>)/ig, "")}</div>
                                     <div className='d-flex flex-column'>
@@ -43,9 +73,9 @@ const Collaboration = () => {
                             )
                         })
                     }
-                </ScrollingCarousel>
+                </AliceCarousel>
             </div>
-        </>
+        </div>
     )
 }
 
