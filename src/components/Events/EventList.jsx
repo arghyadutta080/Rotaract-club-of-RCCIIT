@@ -1,5 +1,5 @@
 import React from 'react'
-import { event_2022, event_2023, collaboration_2022, collaboration_2023 } from './EventListData'
+import { event_2022, event_2023 } from './EventListData'
 
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
