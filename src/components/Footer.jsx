@@ -71,9 +71,9 @@ function Footer() {
                         <div className="col mb-3">
                             <h4 className='text-white'>Member</h4>
                             <ul className="nav flex-column">
-                                <li className="nav-item mb-2"><Link to="/profile" className="nav-link p-0 text-light">Profile</Link></li>
-                                <li className="nav-item mb-2"><Link to="/login" className="nav-link p-0 text-light">Login</Link></li>
-                                <li className="nav-item mb-2"><Link to="/signup" className="nav-link p-0 text-light">Sign Up</Link></li>
+                                <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 text-light">Profile</Link></li>
+                                <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 text-light">Login</Link></li>
+                                <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 text-light">Sign Up</Link></li>
                             </ul>
                         </div>
 
