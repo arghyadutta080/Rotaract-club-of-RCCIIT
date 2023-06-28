@@ -42,7 +42,7 @@ const RecentEvents = () => {
             <div className='d-flex justify-content-center flex-wrap container'>
                 <AliceCarousel
                     autoPlay
-                    autoPlayInterval={1000}
+                    autoPlayInterval={1100}
                     infinite
                     items={events.length}
                     disableButtonsControls
