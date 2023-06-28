@@ -37,7 +37,7 @@ function Footer() {
                         <div className='d-flex flex-column align-items-center justify-content-center mt-4'>
                             <div>
                                 <p>Not a member of Rotaract Club of RCCIIT ?</p>
-                                <button onClick={notification} className="btn" type="submit" style={{ color: "white", backgroundColor: "#B4637A" }}><Link className="nav-link fw-semibold fs-6" to="/">Join Us</Link></button>
+                                <button onClick={notification} className="btn" style={{ color: "white", backgroundColor: "#B4637A" }}><Link className="nav-link fw-semibold fs-6" to="/">Join Us</Link></button>
                             </div>
                         </div>
                     </div>

@@ -6,13 +6,20 @@ function About() {
   return (
     <div>
       <section style={{ background: "#E3DBEA" }} >
-        <div className="d-flex flex-wrap justify-content-center align-items-center border" style={{  paddingBottom: "60px", paddingTop: "60px" }} >
-          <div className="">
+        <div className="d-flex flex-wrap justify-content-center align-items-center border" style={{  paddingBottom: "50px", paddingTop: "50px" }} >
+          <div className="py-2">
             <img src={about_1} style={{ width: "450px", paddingLeft: "50px", paddingRight: "50px" }} />
           </div>
-          <div style={{ minWidth: "450px", maxWidth: "750px" }} className="d-flex flex-column justify-content-center align-items-center mb-4 pt-5">
+          <div style={{ minWidth: "450px", maxWidth: "750px" }} className="d-flex flex-column justify-content-center align-items-center mb-4 pt-4">
             <div style={{ fontFamily: "Lora" }} className="display-4 pb-3">Who We Are</div>
-            <div className="fw-normal fst-italic lh-lg fs-5" style={{ width: "80%" }}>Rotaract District Organisation, RID 3291 happens to be the largest youth organisation that is active in the city of Kolkata & it's suburbs with 92 active and running clubs with a membership count close to 2500. Formed in 2008, after it was redistricted from erstwhile district 3290. It covers Kolkata and 11 other revenue districts of Southern West Bengal and Andaman and Nicobar Islands in India.</div>
+            <div className="fw-semibold fst-italic lh-lg fs-6" style={{ width: "85%" }}>
+              <p>
+                Rotaract Club of RCCIIT, founded in 2017, by the students of RCC Institute of Information Technology, is a registered body under Rotary International, mentored and sponsored by Rotary Club of Calcutta Renaissance.
+              </p>
+              <p>
+                We, at RC-RCCIIT, are a group of around 90 people dedicated to transforming society through our visionary goals. We organise events to help uplift, the poor and underprivileged, professional development events to boost the culture of professionalism amongst students, help organise fundraisers for important causes. Our motto for 2022-23 is "Agitate.Aspire.Achieve."
+              </p>
+              </div>
           </div>
         </div>
       </section>

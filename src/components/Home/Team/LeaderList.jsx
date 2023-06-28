@@ -10,7 +10,7 @@ function LeaderList() {
     return (
         <div style={{ backgroundColor: "#F6C177" }}>
             <div className="album py-5">
-                <h1 style={{ fontFamily: "Lora" }}> <em>Team Leaders</em></h1>
+                <h1 style={{ fontFamily: "Lora" }} className='display-4'> Team Leaders</h1>
                 <div className=" mt-4">
                     <div className="d-flex justify-content-start flex-wrap container">
                         {/* leader list rendering */}
