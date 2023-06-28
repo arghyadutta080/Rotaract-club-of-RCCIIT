@@ -73,7 +73,7 @@ function Footer() {
                             <ul className="nav flex-column">
                                 <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 text-light">Profile</Link></li>
                                 <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 text-light">Login</Link></li>
-                                <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 text-light">Sign Up</Link></li>
+                                {/* <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 text-light">Sign Up</Link></li> */}
                             </ul>
                         </div>
 
