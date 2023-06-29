@@ -5,7 +5,7 @@ const Services = () => {
         <div className='row align-items-center justify-content-center' style={{ paddingLeft: "40px", paddingRight: "40px", paddingBottom: "50px", paddingTop: "50px" }}>
             <div className='col d-flex flex-column align-items-center justify-content-center pt-2 pb-4' style={{ minWidth: "400px", maxWidth: "950px" }} >
                 <h1 style={{ fontFamily: "Lora" }} className="display-5 pb-1 text-center">What we do</h1>
-                <p className='text fs-5 fw-semibold' style={{ width: "79%" }}>We channel our commitment to service at home and abroad through four Avenues of Service, which are the foundation of Rotaract club activity.</p>
+                <p className='text fs-6 fw-semibold' style={{ width: "79%" }}>We channel our commitment to service at home and abroad through four Avenues of Service, which are the foundation of Rotaract club activity.</p>
             </div>
             <div className='col d-flex justify-content-evenly flex-wrap rounded-5 py-4' style={{ paddingLeft: "30px", paddingRight: "30px", background: "#D6EFF4", paddingBottom: "40px", paddingTop: "50px" }} >
                 <div className='d-flex flex-column align-items-center justify-content-between'>
