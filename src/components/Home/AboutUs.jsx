@@ -8,11 +8,11 @@ function About() {
       <section style={{ background: "#E3DBEA" }} >
         <div className="d-flex flex-wrap justify-content-center align-items-center border" style={{  paddingBottom: "50px", paddingTop: "50px" }} >
           <div className="py-2">
-            <img src={about_1} style={{ width: "450px", paddingLeft: "50px", paddingRight: "50px" }} />
+            <img src={about_1} style={{ width: "430px", paddingLeft: "50px", paddingRight: "50px" }} />
           </div>
           <div style={{ minWidth: "450px", maxWidth: "750px" }} className="d-flex flex-column justify-content-center align-items-center mb-4 pt-4">
-            <div style={{ fontFamily: "Lora" }} className="display-4 pb-3">Who We Are</div>
-            <div className="fw-semibold fst-italic lh-lg fs-6" style={{ width: "85%" }}>
+            <div style={{ fontFamily: "Lora" }} className="display-5 pb-3 pt-2">Who We Are</div>
+            <div className="fw-semibold fst-italic lh-lg fs-6" style={{ width: "76%" }}>
               <p>
                 Rotaract Club of RCCIIT, founded in 2017, by the students of RCC Institute of Information Technology, is a registered body under Rotary International, mentored and sponsored by Rotary Club of Calcutta Renaissance.
               </p>

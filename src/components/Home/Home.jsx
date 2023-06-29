@@ -20,7 +20,7 @@ function Home() {
   return (
     <div className='container mb-4'>
       <div className='mb-4 d-flex flex-column align-items-center justify-content-center' style={{ width: "100%" }}>
-        <div className='text-center display-4 mt-2' style={{ fontFamily: "Lora", minWidth: "380px", maxWidth: "700px" }}> <em>Empowering tomorrow's leaders, today</em></div>
+        <div className='text-center display-4 mt-2' style={{ fontFamily: "Lora", minWidth: "360px", maxWidth: "700px" }}> <em>Empowering tomorrow's leaders, today</em></div>
         <div className='d-flex justify-content-center align-items-center fs-3 my-4 py-2 container flex-wrap' style={{ fontFamily: "Lora" }}>
           <em style={{ marginRight: "17px" }}>Rotaract Year</em>
           <div className="dropdown ">
