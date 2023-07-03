@@ -17,25 +17,28 @@ import {
   Routes,
   Route
 } from "react-router-dom"
+import { Account } from './components/Account';
 
 
 function App() {
   return (
     <div className="App" style={{ overflowX: "hidden", overflowY: "hidden" }}>
-      <AuthState>
-        <Router>
-          <Routes>
-            <Route exact path="/" element={<HomePage />} />
-            <Route exact path="/event" element={<EventPage />} />
-            <Route exact path="/notice" element={<NoticePage />} />
-            <Route exact path="/team" element={<TeamPage />} />
-            <Route exact path="/profile" element={<ProfilePage />} />
-            {/* routing ProfilePage components */}
-            <Route exact path="/signup" element={<SignUp />} />
-            <Route exact path="/login" element={<Login />} />
-          </Routes>
-        </Router>
-      </AuthState>
+      <Account >
+        <AuthState>
+          <Router>
+            <Routes>
+              <Route exact path="/" element={<HomePage />} />
+              <Route exact path="/event" element={<EventPage />} />
+              <Route exact path="/notice" element={<NoticePage />} />
+              <Route exact path="/team" element={<TeamPage />} />
+              <Route exact path="/profile" element={<ProfilePage />} />
+              {/* routing ProfilePage components */}
+              <Route exact path="/signup" element={<SignUp />} />
+              <Route exact path="/login" element={<Login />} />
+            </Routes>
+          </Router>
+        </AuthState>
+      </Account>
     </div>
   );
 }
